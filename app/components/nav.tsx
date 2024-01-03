@@ -9,14 +9,13 @@ export default async function Navigation() {
   console.log("session: ", session);
 
   return (
-    // <SessionProvider session={session}>
     <Flex>
       {[
-        { title: "Add New User", url: "/users/create" },
-        { title: "members", url: "/users/member" },
-        { title: "client", url: "/users/client-member" },
-        { title: "public", url: "/users" },
-        // { title: "denied", url: "/users/denied" },
+        { title: "Home", url: "/" },
+        { title: "Subscribed", url: "/users/news" },
+        { title: "Members", url: "/users/member" },
+        { title: "Client", url: "/users/client-member" },
+        { title: "Public", url: "/users" },
       ].map((path) => (
         <List p={"md"} key={path.title}>
           <Link href={path.url}>{path.title}</Link>
@@ -31,6 +30,5 @@ export default async function Navigation() {
         )}
       </List>
     </Flex>
-    // </SessionProvider>
   );
 }

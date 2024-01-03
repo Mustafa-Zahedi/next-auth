@@ -1,9 +1,12 @@
+import { Title } from "@mantine/core";
 import React from "react";
 
 export default function Denied() {
   return (
     <div>
-      <h2>you need to login</h2>
+      <Title c={"red.6"} ff={"sans-serif"}>
+        Only subcired users can have access to this page!
+      </Title>
     </div>
   );
 }
