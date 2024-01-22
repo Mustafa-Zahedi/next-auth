@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { AppShell, MantineProvider, Stack, createTheme } from "@mantine/core";
+import { MantineProvider, Stack, createTheme } from "@mantine/core";
 import { Inter } from "next/font/google";
 import "@mantine/core/styles.css";
 
 import "./globals.css";
-import Navigation from "./components/nav";
-import AuthProvider from "./components/authProvider";
+import Navigation from "../components/nav";
+import AuthProvider from "../components/authProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 

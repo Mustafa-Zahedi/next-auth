@@ -2,7 +2,7 @@ import Link from "next/link";
 import { getServerSession } from "next-auth";
 import { Flex, List } from "@mantine/core";
 
-import { authOptions } from "../api/auth/[...nextauth]/authoptions";
+import { authOptions } from "../app/api/auth/[...nextauth]/authoptions";
 
 export default async function Navigation() {
   const session = await getServerSession(authOptions);
