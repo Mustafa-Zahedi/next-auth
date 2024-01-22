@@ -7,13 +7,13 @@ import { useTranslation } from "react-i18next";
 import { AllUsers } from "@/components/tables/allUsers";
 
 const Create: NextPage = () => {
-  const { t } = useTranslation(); //coklu dil destegi icin.
+  // const { t } = useTranslation(); //coklu dil destegi icin.
   return (
     <>
       <Head>
-        <title>{t("All Users")}</title>
+        <title>{"All Users"}</title>
       </Head>
-      <Portal target="#page-title">{t("AllUsers.AllUsers")}</Portal>
+      <Portal target="#page-title">{"AllUsers.AllUsers"}</Portal>
       <div className="work-area-table">
         <AllUsers />
         users

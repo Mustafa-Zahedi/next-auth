@@ -19,7 +19,7 @@ export const useCustomClient = ({
   query: any;
   variables: any;
 }) => {
-  const backendURL = process.env.backendURL;
+  const backendURL = process.env.NEXT_PUBLIC_BACKEND_URL;
   const [flag, setFlag] = useState<boolean>(false);
   const [res, setRes] = useState<any | undefined>();
   const [error, setError] = useState<any | undefined>();
@@ -31,19 +31,26 @@ export const useCustomClient = ({
     variables,
   });
 
+  // console.log("reqBody: ", reqBody);
+
   useEffect(() => {
-    if (!backendURL) setError("backend url is not correct!");
-    else {
+    // if (!backendURL) setError("backend url is not correct!");
+    // else {
+    // console.log("use client 🚀🚀🚀", backendURL);
+    if (backendURL) {
       const fetchData = async () => {
         try {
           setLoading(true);
-          const response = await fetch(backendURL, {
+          const response = await fetch(backendURL!, {
             method: "POST",
             body: reqBody,
             headers: { "Content-Type": "application/json" },
           });
 
+          console.log("response: ", response);
           const result = await response.json();
+          console.log("result: ", result);
+
           setData(result);
         } catch (error) {
           setError(error);
@@ -53,7 +60,7 @@ export const useCustomClient = ({
       };
       fetchData();
     }
-  }, [backendURL, query, reqBody, variables, flag]);
+  }, [query, reqBody]);
 
   const refetchQuery = async () => {
     setFlag((ps) => !ps);

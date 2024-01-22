@@ -30,7 +30,7 @@ function useCustomLazyQuery({
   const [error, setError] = useState<Error | null>(null);
   const [data, setData] = useState<QueryResponse | null>(null);
 
-  const backendURL = process.env.backendURL;
+  const backendURL = process.env.BACKEND_URL;
 
   const executeLazyQuery = async (variables?: Variables) => {
     setLoading(true);

@@ -28,16 +28,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <I18nextProvider i18n={i18n}>
-          <MantineProvider theme={theme}>
-            <AuthProvider>
-              <Navigation />
-              <Stack m={"xl"} justify="center" w={"100%"}>
-                {children}
-              </Stack>
-            </AuthProvider>
-          </MantineProvider>
-        </I18nextProvider>
+        {/* <I18nextProvider i18n={i18n}> */}
+        <MantineProvider theme={theme}>
+          <AuthProvider>
+            <Navigation />
+            <Stack m={"xl"} justify="center" w={"100%"}>
+              {children}
+            </Stack>
+          </AuthProvider>
+        </MantineProvider>
+        {/* </I18nextProvider> */}
       </body>
     </html>
   );

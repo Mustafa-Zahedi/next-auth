@@ -26,8 +26,8 @@ import {
 } from "@/components/contexts/TableContext";
 import { FiltersDrawer } from "./filtersDrawer";
 import { SettingsDrawer } from "./settingsDrawer";
-import { useRouter } from "next/router";
 import { useTranslation } from "react-i18next";
+import { useRouter } from "next/navigation";
 
 export const Toolbar = () => {
   const {
@@ -42,7 +42,7 @@ export const Toolbar = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
   const router = useRouter();
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
 
   return (
     <>
@@ -73,22 +73,22 @@ export const Toolbar = () => {
                 variant={"default"}
               >
                 {/* Seçilileri */}
-                {t("Action.The_Selected")}
+                {"Action.The_Selected"}
               </Button>
             </Menu.Target>
             <Menu.Dropdown>
               <Menu.Item onClick={() => deleteItems && deleteItems(checkeds)}>
-                {t("Action.Delete")}
+                {"Action.Delete"}
               </Menu.Item>
               <Menu.Item
                 onClick={() =>
                   handlePublishedEntries && handlePublishedEntries(checkeds)
                 }
               >
-                {t("Action.Publish")}
+                {"Action.Publish"}
               </Menu.Item>
               <Menu.Item onClick={() => alert("not implemented")}>
-                {t("Action.UnPublish")}
+                {"Action.UnPublish"}
               </Menu.Item>
             </Menu.Dropdown>
           </Menu>
@@ -129,7 +129,7 @@ export const Toolbar = () => {
       <Drawer
         opened={settingsOpened}
         onClose={() => setSettingsOpened(false)}
-        title={t("Settings.Settings")}
+        title={"Settings.Settings"}
         padding="xl"
         size="xl"
         position="right"
@@ -141,7 +141,7 @@ export const Toolbar = () => {
       <Drawer
         opened={filtersOpened}
         onClose={() => setFiltersOpened(false)}
-        title={t("Filter.title")}
+        title={"Filter.title"}
         padding="xl"
         size="xl"
         position="right"

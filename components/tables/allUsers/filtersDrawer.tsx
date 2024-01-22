@@ -16,7 +16,7 @@ export const FiltersDrawer = () => {
   const { setPage, filter, setFilter } = useContext(
     NewTableContext
   ) as TableContextInterface;
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   // Form varsayılanları
   const form = useForm({
     initialValues: {
@@ -53,14 +53,14 @@ export const FiltersDrawer = () => {
             <TextInput
               name="search"
               size="xs"
-              label={t("Filter.call.call")}
-              placeholder={t("Filter.call.placeHolder")}
+              label={"Filter.call.call"}
+              placeholder={"Filter.call.placeHolder"}
               {...form.getInputProps("search")}
               data-autofocus
             />
             <Group>
               <Button type="submit" size={"xs"}>
-                {t("Filter.call.applyBtnText")}
+                {"Filter.call.applyBtnText"}
               </Button>
               <Button
                 type="reset"
@@ -68,14 +68,14 @@ export const FiltersDrawer = () => {
                 size={"xs"}
                 onClick={() => onFormReset()}
               >
-                {t("Filter.call.resetBtnText")}
+                {"Filter.call.resetBtnText"}
               </Button>
             </Group>
           </Stack>
         </form>
       </Stack>
       <Stack>
-        <Divider label={t("Filter.driver.label")} mt={30} />
+        <Divider label={"Filter.driver.label"} mt={30} />
         <TableFilterList
           filterType="users_table"
           filterForm={form}

@@ -18,7 +18,7 @@ export const SettingsDrawer = () => {
   const { take, setTake, setPage, columns, setColumns } = useContext(
     NewTableContext
   ) as TableContextInterface;
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   // Form varsayılanları
   const form = useForm<SettingsFormValues>({
     initialValues: {
@@ -49,7 +49,7 @@ export const SettingsDrawer = () => {
         <Select
           name="take"
           size="xs"
-          label={t("Settings.label")}
+          label={"Settings.label"}
           // data={DEFAULT_TAKES}
 
           data={DEFAULT_TAKES as []}
@@ -74,7 +74,7 @@ export const SettingsDrawer = () => {
         ))}
       </article>
       <Button type="submit" size={"xs"}>
-        {t("Settings.btnText")}
+        {"Settings.btnText"}
       </Button>
     </form>
   );

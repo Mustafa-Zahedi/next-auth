@@ -30,32 +30,36 @@ import { LayoutColTypes } from "@/@types/Table/layoutColumns";
 import { equalsCheck } from "@/utils/equalsArray";
 import { AllUsersType } from "@/@types/allUsersType";
 import { USERS } from "@/queries/user/user/usersQuery";
-import { useRouter } from "next/router";
 import TableLoader from "../tableLoader";
 import { fetchData } from "@/utils/fetchData";
 import { useCustomClient } from "@/hooks/useCustomClient";
 import { useTranslation } from "react-i18next";
+import { useRouter } from "next/router";
+import { useSearchParams } from "next/navigation";
 
 export const AllUsers = () => {
   // Temel tablo değerleri
-  const router = useRouter();
+  // const router = useRouter();
+
+  const searchParams = useSearchParams();
+  const search = searchParams.get("search");
   const [take, setTake] = useState<number>(DEFAULT_TAKE);
   const [page, setPage] = useState<number>(1);
   const [filter, setFilter] = useState<TableFilterInterface>({
-    search: (router.query.search as string) || "",
+    search: (search as string) || "",
   });
   const [order, setOrder] = useState<TableOrderInterface>({ id: "desc" });
   const [checkeds, setCheckeds] = useState<string[]>([]);
   const skip = (page - 1) * take;
 
-  useEffect(() => {
-    setFilter({ search: router.query.search as string });
-  }, [router.query]);
+  // useEffect(() => {
+  //   setFilter({ search: router.query.search as string });
+  // }, [router.query]);
 
   // Temel tablo değerleri
-  const { t, i18n } = useTranslation(); //coklu dil destegi icin.
+  // const { t, i18n } = useTranslation(); //coklu dil destegi icin.
 
-  dayjs.locale(i18n.language);
+  // dayjs.locale(i18n.language);
   dayjs.extend(localizedFormat);
 
   // Tablo sorgusu
@@ -94,27 +98,15 @@ export const AllUsers = () => {
     },
   });
 
-  // const [runDeleteUserMutation, deleteUsersMutation] = useMutation(
-  //   deleteUserMutation,
-  //   {
-  //     onCompleted: (data: any) => {
-  //       // console.log("deleted: ", data);
-  //       handleAllRowCheck(false, null);
-  //       refetch();
-  //     },
-  //     onError: (error: any) => {
-  //       // console.error("error on while delete user: ", error);
-  //     },
-  //   }
-  // );
+  console.log("data table:", data);
 
   const deleteItems = (checkeds: string[]) => {
     // alert(checkeds);
     openConfirmModal({
-      title: t("operation.delete.askMessage"),
+      title: "operation.delete.askMessage",
       labels: {
-        confirm: t("operation.delete.delete"),
-        cancel: t("operation.delete.cancel"),
+        confirm: "operation.delete.delete",
+        cancel: "operation.delete.cancel",
       },
       cancelProps: { size: "xs" },
       onCancel: () => {
@@ -181,7 +173,7 @@ export const AllUsers = () => {
       visible: true,
       label: (
         <TableColumnLabel
-          label={t("AllUsers.imgUrl")}
+          label={"AllUsers.imgUrl"}
           field="imageUrl"
           order={order}
           setOrder={setOrder}
@@ -194,7 +186,7 @@ export const AllUsers = () => {
       visible: true,
       label: (
         <TableColumnLabel
-          label={t("AllUsers.firstName")}
+          label={"AllUsers.firstName"}
           field="firstName"
           order={order}
           setOrder={setOrder}
@@ -207,7 +199,7 @@ export const AllUsers = () => {
       visible: true,
       label: (
         <TableColumnLabel
-          label={t("AllUsers.lastName")}
+          label={"AllUsers.lastName"}
           field="lastName"
           order={order}
           setOrder={setOrder}
@@ -220,7 +212,7 @@ export const AllUsers = () => {
       visible: true,
       label: (
         <TableColumnLabel
-          label={t("AllUsers.email")}
+          label={"AllUsers.email"}
           field="email"
           order={order}
           setOrder={setOrder}
@@ -233,7 +225,7 @@ export const AllUsers = () => {
       visible: false,
       label: (
         <TableColumnLabel
-          label={t("AllUsers.createdAt")}
+          label={"AllUsers.createdAt"}
           field="createdAt"
           order={order}
           setOrder={setOrder}
@@ -246,7 +238,7 @@ export const AllUsers = () => {
       visible: false,
       label: (
         <TableColumnLabel
-          label={t("AllUsers.updatedAt")}
+          label={"AllUsers.updatedAt"}
           field="updatedAt"
           order={order}
           setOrder={setOrder}
@@ -257,7 +249,7 @@ export const AllUsers = () => {
     {
       field: "operation",
       visible: true,
-      label: <Title order={6}>{t("AllUsers.operation")}</Title>,
+      label: <Title order={6}>{"AllUsers.operation"}</Title>,
       style: { width: 250 },
     },
   ]);
@@ -265,7 +257,7 @@ export const AllUsers = () => {
   /**
    * Veriyi tabloda gösterilecek hale getir
    */
-  const rows = data?.users?.items.map((item: AllUsersType) => {
+  const rows = data?.data?.users?.items.map((item: AllUsersType) => {
     const rowChecked = checkeds?.indexOf(item?.uuid) >= 0 ? true : false;
     const avatarUserLatters = `${item.firstName.slice(
       0,
@@ -339,7 +331,7 @@ export const AllUsers = () => {
         createdAt: {
           content: (
             <span style={{ fontFamily: "monospace" }}>
-              {dayjs(item.createdAt).locale(i18n.language).format("lll")}
+              {dayjs(item.createdAt).format("lll")}
             </span>
           ),
           style: { textAlign: "center" },
@@ -347,7 +339,7 @@ export const AllUsers = () => {
         updatedAt: {
           content: (
             <span style={{ fontFamily: "monospace" }}>
-              {dayjs(item.updatedAt).locale(i18n.language).format("lll")}
+              {dayjs(item.updatedAt).format("lll")}
             </span>
           ),
           style: { textAlign: "center" },
@@ -434,14 +426,14 @@ export const AllUsers = () => {
         {
           ...columns[3],
           label: (
-            <TableColumnLabel label={t("AllUsers.imageUrl")} field="imageUrl" />
+            <TableColumnLabel label={"AllUsers.imageUrl"} field="imageUrl" />
           ),
         },
         {
           ...columns[4],
           label: (
             <TableColumnLabel
-              label={t("AllUsers.firstName")}
+              label={"AllUsers.firstName"}
               field="firstName"
               order={order}
               setOrder={setOrder}
@@ -452,7 +444,7 @@ export const AllUsers = () => {
           ...columns[5],
           label: (
             <TableColumnLabel
-              label={t("AllUsers.lastName")}
+              label={"AllUsers.lastName"}
               field="lastName"
               order={order}
               setOrder={setOrder}
@@ -464,7 +456,7 @@ export const AllUsers = () => {
           ...columns[6],
           label: (
             <TableColumnLabel
-              label={t("AllUsers.email")}
+              label={"AllUsers.email"}
               field="email"
               order={order}
               setOrder={setOrder}
@@ -476,7 +468,7 @@ export const AllUsers = () => {
           ...columns[7],
           label: (
             <TableColumnLabel
-              label={t("AllUsers.createdAt")}
+              label={"AllUsers.createdAt"}
               field="createdAt"
               order={order}
               setOrder={setOrder}
@@ -488,7 +480,7 @@ export const AllUsers = () => {
           ...columns[8],
           label: (
             <TableColumnLabel
-              label={t("AllUsers.updatedAt")}
+              label={"AllUsers.updatedAt"}
               field="updatedAt"
               order={order}
               setOrder={setOrder}
@@ -535,9 +527,7 @@ export const AllUsers = () => {
 
   // console.log("dddd", data);
 
-  // ------------------------------------------------------------------------------------------------------------------
-  // ŞABLON
-  // ------------------------------------------------------------------------------------------------------------------
+  console.log("rows: ", rows);
 
   return (
     <NewTableContext.Provider
@@ -555,8 +545,8 @@ export const AllUsers = () => {
         setFilter,
         setCheckeds,
         deleteItems: deleteItems,
-        totalPages: data?.users?.pagination.totalPages,
-        totalItems: data?.users?.pagination.totalItems,
+        totalPages: data?.data?.users?.pagination.totalPages,
+        totalItems: data?.data?.users?.pagination.totalItems,
       }}
     >
       <div className="table-wrapper">
@@ -566,24 +556,27 @@ export const AllUsers = () => {
         <div className="table-content">
           <div style={{ position: "relative", height: "100%" }}>
             <TableLoader visible={loading} rowNumber={10} />
-            {data && data.users?.items.length > 0 && (
+
+            {data && data?.data?.users?.items?.length > 0 && (
               <Table
                 columns={columns.filter((col) => col.visible)}
                 rows={rows}
                 take={take}
               />
             )}
-            {data && data.users.items.length == 0 && (
+
+            {data && data?.data?.users?.items.length == 0 && (
               <TableAlert
-                title={t("Alert.TableAlert.title")}
-                message={t("Alert.TableAlert.message")}
+                title={"Alert.TableAlert.title"}
+                message={"Alert.TableAlert.message"}
                 icon={<MdErrorOutline size={16} />}
                 color="yellow"
               />
             )}
+
             {error && (
               <TableAlert
-                title={t("Alert.TableAlert.error")}
+                title={"Alert.TableAlert.error"}
                 message={error}
                 icon={<MdErrorOutline size={16} />}
                 color="red"

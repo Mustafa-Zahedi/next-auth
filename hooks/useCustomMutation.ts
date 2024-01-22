@@ -25,7 +25,7 @@ function useCustomMutation({
     refetch: (variables?: Variables) => Promise<void>;
   }
 ] {
-  const endpoint = process.env.backendURL!;
+  const endpoint = process.env.NEXT_PUBLIC_BACKEND_URL!;
   const defaultVariables = variables;
 
   const [loading, setLoading] = useState<boolean>(false);
