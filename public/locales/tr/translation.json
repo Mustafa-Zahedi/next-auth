@@ -1,0 +1,995 @@
+{
+  "Common": {
+    "Delete": "Delete",
+    "Cancel": "Cancel",
+    "Save": "Save",
+    "Columns": "Sütunlar",
+    "operation": "Operasyon"
+  },
+  "Buttons": {
+    "Save": "Kaydet",
+    "Update": "Güncelle",
+    "Delete": "Sil"
+  },
+  "example": {
+    "welcome": "Hoşgeldin {{ name }}"
+  },
+  "PanelHeader": {
+    "Profile": {
+      "AccountInfo": "Hesap Bilgilerim",
+      "Security": "Güvenlik",
+      "HelpCenter": "Yardım Merkezi",
+      "SignOut": "Oturumu kapat"
+    }
+  },
+  "Menu": {
+    "Create": {
+      "Header": "OLUŞTUR",
+      "Content": "İÇERİK"
+    },
+    "Start": "BAŞLANGIÇ",
+    "Inbox": {
+      "Header": "GELEN KUTUSU",
+      "Communication_messages": "İletişim Mesajları"
+    },
+    "Content": {
+      "Header": "İÇERİK",
+      "Entry": "Haber",
+      "Article": "Makale",
+      "Photo-entry": "Foto Haber",
+      "Video-entry": "Video Haber",
+      "Poll": "Anket",
+      "Reportage": "Röportaj"
+    },
+    "SocialMedia": {
+      "Header": "SOSYAL MEDYA",
+      "Temp": "Geçici"
+    },
+    "Users": {
+      "Header": "KULLANICILAR",
+      "Groups": "Gruplar",
+      "Users": "Kullanıcılar",
+      "editUser": "Kullanıcı Düzenle",
+      "NicknameIsUsed": "Nickname kullanılıyor",
+      "uniqueNickname": "Benzersiz takma ad"
+    },
+    "Advertisements": {
+      "Header": "REKLAMLAR",
+      "AdvertChannels": "Kanallar",
+      "Ads": "Reklamlar"
+    },
+    "Reports": {
+      "Header": "RAPORLAR",
+      "Temp": "Geçici"
+    },
+    "Accountings": {
+      "Header": "MUHASEBE",
+      "Income": "Gelirler",
+      "Expense": "Giderler"
+    },
+    "Entries": {
+      "Header": "Girdileri"
+    },
+    "Taxonomies": {
+      "Header": "Taksonomiler"
+    },
+    "Supports": {
+      "Header": "Kütükler"
+    },
+    "LogRecords": {
+      "Header": "Günlük Kayıtları"
+    },
+    "Settings": {
+      "LinkManagment": "Bağlantı Yönetimi",
+      "Header": "AYARLAR",
+      "Settings": "Ayarlar",
+      "Email": "E-posta hesapları",
+      "Tickets": "destek biletleri",
+      "Groups": "Destek grupları",
+      "Thema": "Tema",
+      "EntryTypes": "İçerik Tipleri",
+      "FormLayouts": "Formlar",
+      "TaxonomyTypes": "Kategori Tipleri",
+      "TaxonomyItems": "Kategoriler",
+      "LogRecords": "Günlük Kayıtları",
+      "Redirect": "Yönlendir"
+    },
+    "System": {
+      "Header": "SİSTEM",
+      "Settings": "Sistem",
+      "logs": "İşlem kayıtları/Logları"
+    },
+    "Help": {
+      "Header": "YARDIM",
+      "Documents": "Dokümanlar",
+      "Videos": "Videolar"
+    },
+    "Other": {
+      "Header": "DİĞER KONULAR",
+      "Temp": "Geçici"
+    },
+    "Template": {
+      "Header": "Şablon",
+      "carousel": "carousel",
+      "authors": "authors",
+      "header": "header",
+      "authorsAsCarousel": "authorsAsCarousel",
+      "authorNew": "authorNew",
+      "accordion": "Akordeon",
+      "tab": "Sekme",
+      "slider": "kaydırıcı"
+    },
+    "ViewDesign": {
+      "Header": "Tasarımı Görüntüle",
+      "page": "Sayfa",
+      "template": "Şablon",
+      "component": "Bileşen",
+      "authorsAsCarousel": "authorsAsCarousel",
+      "accordion": "Akordeon",
+      "tab": "Sekme",
+      "slider": "kaydırıcı",
+      "authorNew": "authorNew"
+    },
+    "Inbox-": "Inbox -eng -test1",
+    "Messages": "Messages",
+    "Subscriptions": "Subscriptions",
+    "User": "User",
+    "AdvertChannels": "AdvertChannels",
+    "Accounting": "Accounting",
+    "Incomes": "Incomes",
+    "Expenses": "Expenses",
+    "Thema": "Thema",
+    "Site": "Site",
+    "Support": "Support",
+    "Help_documents": "Help Documents",
+    "Support_tickets": "Support Tickets"
+  },
+  "Login": {
+    "Wellcome": "Hoş Geldiniz",
+    "yourSessionIsOpened": "Oturumunuz Açıldı",
+    "error": "Hata",
+    "sessionError": "Oturum Hatası",
+    "userInfoReceived": "Kullanıcı bilgileri alındı",
+    "userOrPasswordIsInvalid": "Kullanıcı adı ya da parola geçersiz",
+    "SignIn": "Oturum Aç",
+    "forgotPasswordMsg": "Şifrenizi mi unuttunuz?",
+    "createAccount": "Hesap oluşturmak",
+    "dontHaveAccountMsg": "Henüz bir hesabınız yok mu?"
+  },
+  "Profile": {
+    "MyProfile": "Hesap Bilgileri",
+    "MyProfile_desc": "Hesap Bilgileri Açıklamaları",
+    "Email": "E-posta",
+    "Title": "Ünvan",
+    "Name": "Ad",
+    "LastName": "Soy Ad",
+    "NickName": "Takma Ad",
+    "ProfilePhoto": "Profil Görseli",
+    "SelectFile": "Dosya Seçiniz",
+    "Resume": "Öz Geçmiş",
+    "Resume_Desc": "Site içerisinde ilgili alanlarda gösterilecek kısa özgeçmiş metni",
+    "Contacts": "Bağlantılar",
+    "Contacts_desc": "Web sitenizin ve sosyal medya hesaplarınızın bağlantılarını girebilirsiniz.",
+    "Security": "Güvenlik",
+    "Security_desc": "Hesap güvenliği için bir açıklama",
+    "Password": "Parola",
+    "Password_desc": "Parolanızı güncelleyin",
+    "CurrentPassword": "Şuanki parolanız",
+    "PasswordAgain": "Parola tekrar",
+    "UpdatePassword": "Parola güncelle",
+    "Groups": "Gruplar",
+    "Categories": "Kategoriler",
+    "Settings": "Ayarlar",
+    "Localization": "Yerelleştirme",
+    "Localization_desc": "Yerelleştirme ayarlarını yapabilirsiniz",
+    "Language": "Dil",
+    "TimeZone": "Saat Dilimi",
+    "Others": "Diğer",
+    "NoCommentOnMyContent": "İçeriklerimde yorum yapılamasın",
+    "UseMyNicknameOnMyContent": "İçeriklerimde takma ismim kullanılsın",
+    "UseMyNicknameOnMyComments": "Yorumlarımda takma ismim kullanılsın",
+    "UsersCanNotSendMessageToMe": "Kullanıcılar bana mesaj gönderemesin",
+    "DoNotShowMeAmongWriters": "Yazarlar arasında görüntülenmeyeyim",
+    "2-StepVerification": "2 aşamalı doğrulama",
+    "2-StepVerification_desc": "2 aşamalı doğrulama kodu kullanarak oturum açın",
+    "SmsVerification": "SMS doğrulama",
+    "SmsVerification_desc": "SMS doğrulama kodu kullanarak oturum açın",
+    "EmailVerification": "E.Posta doğrulama",
+    "EmailVerification_desc": "E.Posta doğrulama kodu kullanarak oturum açın",
+    "IPlimitation": "IP sınırlandırma",
+    "IPlimitation_desc": "Hesabınız ile oturum açabilecek IP adreslerini sınırlayın",
+    "NicknameIsUsed": "Nickname kullanılıyor",
+    "EmailIsUsed": "E-posta kullanılıyor",
+    "area": "Alan",
+    "Biography": "Biyografi",
+    "Bio_describe": "kullanıcı biyografisi"
+  },
+  "sil": {
+    "Begin": "Başlangıç",
+    "Messages": "Mesajlar",
+    "Subscriptions": "Abonelikler",
+    "Entry": "içerik",
+    "SocialMedia": "Sosyal Medya",
+    "User": "Kullanıcı",
+    "Users": "Kullanıcılar",
+    "Advertisements": "Reklamlar",
+    "AdvertChannels": "Reklam Kanalları",
+    "Accounting": "Muhasebe",
+    "Incomes": "Gelirler",
+    "Expenses": "Giderler",
+    "Settings": "Ayarlar",
+    "Thema": "Tema",
+    "Site": "Site",
+    "Support": "DEstek-Yardım",
+    "Help_documents": "Yardım dokümanları",
+    "Support_tickets": "Destek Kayıtları",
+    "Error": "Error",
+    "start": "Başlangıç",
+    "Dashboard": "Ana ekran",
+    "Do Something": "Bir şeyler yapalım",
+    "Do Button": "Yap bunu",
+    "Content": "İçerik",
+    "Post": "Haber",
+    "Heading": "Başlık",
+    "Entries": "İçerikler",
+    "News": "Haber",
+    "Article": "Makale",
+    "Questionnaire": "Anket",
+    "New": "Yeni",
+    "Entry Detail": "Makale detayı",
+    "Reports": "Raporlar",
+    "Example_Hi": "Merhaba {{who}}",
+    "Examples": "Örnekler",
+    "myInfo": "Bilgilerim",
+    "LogOut": "Oturumu Kapat",
+    "NotPublished": "Yayında değil",
+    "Published": "Yayında",
+    "Status": "Durum",
+    "PublishedAt": "Yayınlanma",
+    "TotalNumberOfRecors": "Toplam {{numberOfRecords}} kayıt",
+    "Today": "Bugün  {{toDay}}",
+    "Attention": "Dikkat",
+    "OK": "Tamam",
+    "Cancel": "İptal",
+    "Are_you_sure_to_publish": "Seçili içerikleri yayına almak istediğinizden emin misiniz?",
+    "Are_you_sure_to_UnPublish": "Seçili içerikleri yayından kaldırmak istediğinizden emin misiniz?",
+    "Please_select_category": "Lütfen Kategori Seçiniz",
+    "You_can_Select_category_to_move_in": "Seçili içerikleri taşımak istediğiniz kategoriyi seçebilirsiniz.",
+    "Spor": "Spor",
+    "Magazine": "Magazin",
+    "Agenda": "Gündem",
+    "Are_you_sure_to_delete": "Seçili içerikleri silmek istediğinize emin misiniz?",
+    "Publish": "Yayınla",
+    "UnPublish": "Yayından Kaldır",
+    "Move": "Taşı",
+    "Delete": "Sil",
+    "The_Selected": "Seçilenleri",
+    "This_field_is_mandatory": "Bu alan zorunludur",
+    "Save": "Kaydet",
+    "title": "Welcome to an internationalized APP",
+    "description": {
+      "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+      "part2": "Switch language between english and portuguese using buttons above."
+    }
+  },
+  "Groups": {
+    "title": "Kullanıcı Grupları",
+    "id": "ID",
+    "groupName": "GROUP ADI",
+    "slug": "SLUG",
+    "createdAt": "OLUŞTURMA TARİHİ",
+    "updatedAt": "GÜNCELLEME TARİHİ",
+    "warningYouAreDeletingUserGroup": "Kullanıcı Grubunu Siliyorsunuz!",
+    "addNewUserGroup": "Yeni Kullanıcı Groubu Ekle",
+    "userGroupWillBeDeletedThisCannotBeRecovered": "Kullanıcı Grupları silinecek, bu işlem geri alınamaz.",
+    "userGroupEdit": "Kullanıcı Grubu Düzenle",
+    "saved": "Kaydedildi",
+    "saveOperationCompleted": "Kayıt işlemi tamamlandı",
+    "error": "Hata",
+    "GroupInfo": "Grup Bilgileri",
+    "GroupDetails": "Grup detaylari",
+    "GroupDetailsDescription": "Grup detay bilgileri",
+    "GroupName": "Group Adı",
+    "GroupSlug": "Group Slug Bilgisi",
+    "GroupPermissions": "Grup İzinleri",
+    "GroupPermissionsDescription": "Grup İzin Bilgileri",
+    "Inbox-": "Inbox -eng -test1",
+    "Messages": "Messages",
+    "Subscriptions": "Subscriptions",
+    "User": "User",
+    "AdvertChannels": "AdvertChannels",
+    "Incomes": "Incomes",
+    "Expenses": "Expenses",
+    "Thema": "Thema",
+    "Site": "Site",
+    "Support": "Support",
+    "Help_documents": "Help Documents",
+    "Support_tickets": "Support Tickets"
+  },
+  "Validation": {
+    "title": "Başlık",
+    "user": {
+      "title": "Ünvan"
+    }
+  },
+  "Permissions": {
+    "can_login": "Login olabilir",
+    "can_login_panel": "Panele login olabilir",
+    "can_see_dashboard": "Paneli görebilir",
+    "can_see_inbox": "Gelen kutusunu görebilir",
+    "can_see_content": "İçerikleri görebilir ",
+    "can_see_settings": "ayarları görebilir",
+    "can_see_users": "Kullanıcıları görebilir",
+    "can_see_user": "Kullanıcı bilgisini görebilir",
+    "can_see_help": "Yardım görebilir",
+    "can_see_payments": "Ödemeleri görebilir",
+    "can_see_reports": "Raporları görebilir",
+    "can_see_adverts": "Reklamları görebilir",
+    "can_see_social": "Sosyal görebilir",
+    "can_do_user": "kullanıcı yapabilir",
+    "can_do_users": "Kullanıcılar Yapabilir",
+    "can_do_login": "Giriş Yapabilir",
+    "can_do_checkToken": "CheckToken Yapabilir",
+    "can_do_checkNickName": "Nick Adını Kontrol Edebilir",
+    "can_do_checkEmail": "E-postayı Kontrol Edebilir",
+    "can_do_userProperty": "kullanıcı özelliği yapabilir",
+    "can_do_userSetting": "Kullanıcı Ayarlarını Yapabilir",
+    "can_do_userSettings": "Kullanıcı Ayarlarını Yapabilir",
+    "can_do_userGroup": "Kullanıcı Grubu Yapabilir",
+    "can_do_userGroups": "Yapabilen Kullanıcı Grupları",
+    "can_do_userGroupsWithoutPager": "Kullanıcı Gruplarını Çağrı Cihazı Olmadan Yapabilir",
+    "can_do_userGroupPermission": "Kullanıcı Grubu İzni Yapabilir",
+    "can_do_userGroupPermissionsWithGroupId": "Kullanıcı Grubu İzinlerini Grup Kimliği İle Yapabilir",
+    "can_do_userGroupPermissionsWithUserId": "Kullanıcı Grubu İzinlerini Kullanıcı Kimliği İle Yapabilir",
+    "can_do_relation": "İlişki Yapabilir",
+    "can_do_filter": "Filtre Yapabilir",
+    "can_do_filters": "filtreler Yapabilir",
+    "can_do_listBuckets": "Kova Listesi Yapılabilir",
+    "can_do_otherFields": "Diğer Alanları Yapabilir",
+    "can_do_hasBankAccount": "Yapabilir Banka Hesabı Var",
+    "can_do_bankAccount": "Banka Hesabı Yapabilir",
+    "can_do_taxonomyType": "Taksonomi Türü Yapabilir",
+    "can_do_taxonomyTypes": "Taksonomi Türlerini Yapabilir",
+    "can_do_taxonomyTypesTable": "Can Do Taksonomi Türleri Tablosu",
+    "can_do_TaxonomyItem": "Taksonomi Öğesini Yapabilir",
+    "can_do_taxonomyItems": "Taksonomi Öğelerini Yapabilir",
+    "can_do_userProperties": "Kullanıcı Özellikleri Yapabilir",
+    "can_do_taxonomyItemsTree": "Taksonomi Öğeleri Ağacı Yapabilir",
+    "can_do_taxonomyItemsTable": "Taksonomi Öğeleri Tablosu Yapabilir",
+    "can_do_log": "Günlük Yapabilir",
+    "can_do_logs": "Günlük Yapabilir",
+    "can_do_logsBySourceType": "Kaynak Türüne Göre Günlük Yapabilir",
+    "can_do_logsBySourceTypeAndId": "Kaynak Türüne ve Kimliğine Göre Günlükler Yapabilir",
+    "can_do_logsByUser": "Günlükleri Kullanıcıya Göre Yapabilir",
+    "can_do_createUser": "Kullanıcı Oluşturabilir",
+    "can_do_updateUser": "Kullanıcıyı Güncelleyebilir",
+    "can_do_deleteUser": "Kullanıcıyı Silebilir",
+    "can_do_deleteUsers": "Kullanıcıları Silebilir",
+    "can_do_createUserProperty": "Kullanıcı Özelliği Oluşturabilir",
+    "can_do_storeUserProperty": "Kullanıcı Özelliğini Saklayabilir",
+    "can_do_updateUserProperty": "Kullanıcı Özelliğini Güncelleyebilir",
+    "can_do_deleteUserProperty": "Kullanıcı Özelliğini Silebilir",
+    "can_do_updateUserSetting": "Kullanıcı Ayarını Güncelleyebilir",
+    "can_do_deleteUserSetting": "Kullanıcı Ayarını Silebilir",
+    "can_do_createUserGroup": "Kullanıcı Grubu Oluşturabilir",
+    "can_do_updateUserGroup": "Kullanıcı Grubunu Güncelleyebilir",
+    "can_do_deleteUserGroup": "Kullanıcı Grubunu Silebilir"
+  },
+  "Settings": {
+    "Settings": "Ayarlar",
+    "Thema": "Tema",
+    "OtherSettings": "Diğer Ayarlar",
+    "SettingsList": "Ayarlar Listesi",
+
+    "LicenseInformation": "Lisans Bilgileri",
+    "LicenseHolder": "Lisans Sahibi",
+    "LicenseKey": "Lisans Anahtarı",
+    "LicenseValidity": "Lisans Geçerliliği",
+    "ServiceAgreement": "Lisans Sözleşmesi",
+
+    "RestAPIAccessInformation": "Rest API Erişim Bilgileri",
+    "APIKey": "API Anahtarı",
+    "Documentation": "Dökümantasyon",
+    "ExcludedContent": "Hariç tutulan içerik",
+    "FreeJSONForSettings": "Ayarlar için serbest JSON",
+
+    "CorporateInformation": "Kurumsal Bilgiler",
+    "OfficalTitle": "Resmi Ünvan",
+    "CommonName": "Bilinen İsim",
+
+    "ContactInformation": "İletişim Bilgileri",
+    "SubscriptionTransactionsEMail": "Abone İşlemleri E.Posta",
+    "InternationalPhonePrefix": "Uluslar arası telefon ön eki",
+    "Fax": "Faks",
+    "WhatsAppNotificationNumber": "WhatsApp İhbar Numarası",
+    "ContactAddress": "İletişim Adresi",
+    "LocationInformation": "Konum Bilgisi",
+    "OtherAddressInformation": "Diğer Adres Bilgileri",
+
+    "AuthorizedInformation": "Yetkili Bilgileri",
+    "NameSurname": "Ad Soyad",
+    "PhoneNumber": "Cep Telefonu",
+
+    "BillingInformation": "Fatura Bilgileri",
+    "Publishing": "Yayınlama",
+    "Type": "Türü",
+    "CompanyTitle": "Şirket Ünvanı",
+    "ShortTitle": "Kısa Ünvan",
+    "TaxOffice": "Vergi Dairesi",
+    "TaxNumber": "Vergi Numarası",
+    "PostCode": "Posta Kodu",
+    "Address": "Adres",
+
+    "DirectoryCategories": "Rehber Kategorileri",
+    "Accounting": "Muhasebe",
+
+    "Province": "İl",
+    "District": "İlçe",
+    "Country": "Ülke",
+    "Telephone": "Telefon",
+    "EMail": "E-Posta",
+    "EMail2": "E-Posta 2",
+    "EMail3": "E-Posta 3",
+
+    "BankAccountInfo": "Banka Hesap Bilgileri",
+    "AccountName": "Hesap Adı",
+    "BankName": "Banka Adı",
+    "AccountHolder": "Hesap Sahibi",
+    "IBANNumber": "IBAN Numarası",
+    "Currency": "Para Birimi",
+    "BranchCode": "Şube Kodu",
+    "SWIFTCode": "SWIFT Kodu",
+
+    "saved": "Kaydedildi",
+    "saveOperationCompleted": "Kayıt işlemi tamamlandı",
+    "error": "Hata",
+    "updateOperationCompleted": "Güncelleme işlemi tamamlandı",
+    "pickOne": "Seçiniz",
+    "label": "Kayıt Başına Sayfa",
+    "btnText": "Uygula"
+  },
+  "Filter": {
+    "title": "Filtre",
+    "call": {
+      "call": "Arama",
+      "title": "Başlık",
+      "applyBtnText": "Uygula",
+      "resetBtnText": "Temizle",
+      "placeHolder": "Ad soyad ya da E.Posta ile arayabilirsiniz"
+    },
+    "driver": {
+      "label": "Kayıtlı filtreler",
+      "list": {
+        "placeholder": "Başlık",
+        "saveBtn": "Kaydet"
+      },
+      "message": " Şu anda kayıtlı bir aramanız yok. Filtre işlemini uyguladıktan sonra aramayı kayıt edebilir, daha sonra hızlıca aynı aramayı yaptırabilirsiniz"
+    },
+    "saveBtn": "Kaydet",
+    "clean": "Temiz",
+    "search": "Arama"
+  },
+  "EntryType": {
+    "id": "Id",
+    "label": "Başlık",
+    "slug": "Slug bilgisi",
+    "operation": "Operasyon",
+    "EntryTypes": "Giriş Türleri"
+  },
+  "Entry": {
+    "id": "Id",
+    "isDraft": "Taslak Mı",
+    "Status": "Durum",
+    "isDeleted": "Silindi",
+    "Name": "Adı",
+    "createdAt": "Oluşturulma Tarihi",
+    "warningYouAreDeletingEntry": "İçerik siliyorsunuz",
+    "warningAreYouSureDeletingEntry": "Emin misiniz?",
+    "Entry": {
+      "contentType": "İçerik Tipi",
+      "content": "Listesi"
+    },
+    "operation": "Operasyon"
+  },
+
+  "TaxonomyType": {
+    "taxonomyTypes": "Taksonomi Türü",
+    "label": "Etiket",
+    "check": "Kontrol",
+    "slug": "Slug",
+    "selected": "Seçilileri",
+    "description": "Açıklama",
+    "operation": "Operasyon",
+    "settings": "Ayarlar",
+    "settingsGroup": {
+      "label": "Sayfa başına kayıt",
+      "apply": "Uygula",
+      "columns": "Sütunlar",
+      "": ""
+    },
+    "filter": "Filtre",
+    "save": "kaydet",
+    "filterGroup": {
+      "clear": "Temiz",
+      "search": "Arama",
+      "saved filters": "Kayıtlı filtreler"
+    }
+  },
+  "FormType": {
+    "id": "Id",
+    "title": "Başlık",
+    "layout": "Yerleşim",
+    "operation": "operasyon",
+    "formLayout": "Form Düzeni"
+  },
+  "TaxonomyItem": {
+    "id": "Id",
+    "label": "Etiket",
+    "slug": "Sülük",
+    "description": "Açıklama",
+    "operation": "operasyon",
+    "TaxonomyItems": "Sınıflandırma Öğeleri"
+  },
+  "Action": {
+    "Publish": "Yayınla",
+    "UnPublish": "Yayından Kaldır",
+    "Move": "Taşı",
+    "Delete": "Sil",
+    "The_Selected": "Seçilenleri",
+    "Approve": "Approve",
+    "Reject": "Reject"
+  },
+  "Error": "Error",
+  "Users": {
+    "title": "Kullanıcılar",
+    "email": "E-posta",
+    "firstName": "Ilk adı",
+    "lastName": "Soyadı",
+    "image": "Resim"
+  },
+  "AllUsers": {
+    "imageUrl": "resim url'si",
+    "email": "E-posta",
+    "firstName": "İlk adı",
+    "lastName": "Soy isim",
+    "createdAt": "oluşturuldu",
+    "updatedAt": "Güncelleme Tarihi",
+    "operation": "operasyon",
+    "AllUsers": "Tüm kullanıcılar"
+  },
+  "toolbar": {
+    "operation": "operasyon",
+    "selected": "Seçilenleri"
+  },
+  "operation": {
+    "delete": {
+      "askMessage": "Siliyorsunuz, emin misiniz?",
+      "delete": "Sil",
+      "cancel": "iptal"
+    }
+  },
+  "FormLayoutHistory": {
+    "Title": "Form Düzeni Geçmişi",
+    "description": "Form Düzeni Geçmişi",
+    "label": "Etiket",
+    "layout": "Yerleşim",
+    "restore": "Onarmak",
+    "title": "Başlık"
+  },
+  "EntryTableHistory": {
+    "Title": "Giriş Tablosu Geçmişi",
+    "description": "Giriş Tablosu Geçmişi Açıklama",
+    "content": "İçerik",
+    "label": "Etiket",
+    "restore": "Onarmak",
+    "title": "Başlık"
+  },
+  "updatedAt": "Updated At",
+  "createdAt": "Created At",
+  "user": "kullanıcı",
+  "test": {
+    "test": "İçerik"
+  },
+  "EmailAccount": {
+    "id": "Id",
+    "from": "İtibaren",
+    "name": "İsim",
+    "password": "Parola",
+    "operation": "Operasyon",
+    "forward": "İleri",
+    "createdBy": "Tarafından yaratıldı",
+    "EmailAccounts": "E-posta hesapları"
+  },
+  "SupportTickets": {
+    "id": "Id",
+    "userId": "Kullanıcı kimliği",
+    "categoryId": "Kimlik kategorisi",
+    "responsibleGroupId": "Sorumlu Grup Kimliği",
+    "supportGroup": "Destek Grubu",
+    "responsibleUserUuid": "Sorumlu Kullanıcı Kimliği",
+    "title": "Başlık",
+    "url": "Url",
+    "content": "İçerik",
+    "urgency": "Aciliyet",
+    "status": "Durum",
+    "createdAt": "oluşturuldu",
+    "updatedAt": "güncellendi",
+    "operation": "Operasyon",
+    "SupportTickets": "destek biletleri",
+    "SupportTicketsEdit": "Destek Biletleri Düzenle",
+    "CreateSupportTickets": "Destek Biletleri Oluşturun"
+  },
+  "LogRecord": {
+    "id": "Id",
+    "userUuid": "kullanıcı Uuid",
+    "img": "resim",
+    "firstName": "İlk adı",
+    "lastName": "Soy isim",
+    "type": "Tip",
+    "code": "kod",
+    "message": "İleti",
+    "sourceType": "kaynak tipi",
+    "sourceId": "Kaynak Kimliği",
+    "ip": "IP",
+    "port": "Liman",
+    "agent": "Ajan",
+    "createdAt": "oluşturuldu",
+    "operation": "Operasyon",
+    "LogRecords": "Günlük Kayıtları"
+  },
+  "Alert": {
+    "Delete": {
+      "message": "Siliyorsunuz, emin misiniz?",
+      "confirm": "Sil",
+      "cancel": "İptal",
+      "deleteTitle": "Sil",
+      "successMsg": "başarıyla silindi"
+    },
+    "Create": {
+      "successTitle": "eklendi",
+      "successMsg": "başarıyla oluşturuldu",
+      "errorTitle": "İçerik bulunamadı!",
+      "errorMsg": "içerik oluşturulamadı"
+    },
+    "Update": {
+      "successTitle": "Güncellenmiş",
+      "successMsg": "başarıyla güncellendi",
+      "errorTitle": "İçerik bulunamadı!",
+      "errorMsg": "İçerik güncellenemedi"
+    },
+    "error": "Hata",
+    "TableAlert": {
+      "title": "İçerik bulunamadı!",
+      "message": "Arama kriterlerinizi gözden geçirerek tekrar deneyiniz",
+      "error": "Bir hata oluştu!"
+    },
+    "Save": {
+      "saved": "Kaydedildi",
+      "successMsg": "İçerik başarıyla oluşturuldu",
+      "error": "Hata",
+      "errorMsg": "içerik oluşturulamadı"
+    }
+  },
+  "entryType": "Giriş Türü",
+  "taxonomyType": "Taksonomi Türü",
+  "taxonomyItem": "Taksonomi Öğesi",
+  "supportTicket": "Destek bileti",
+  "emailAccount": "E-posta hesabı",
+  "EmailAccounts": { "CreateForm": { "content": "İçerik", "name": "İsim", "password": "Şifre", "confirm_password": "Şifreyi Onayla", "email": "Yönlendirmek için e-posta" } },
+  "EntryTypes": {
+    "CreateForm": {
+      "content": "İçerik",
+      "form": "Biçim",
+      "settings": "Ayarlar",
+      "slug": "Kısa Adı",
+      "link_structure": "Link Structure",
+      "label": "Etiket"
+    }
+  },
+  "TaxonomyTypes": { "CreateForm": { "content": "İçerik", "form": "Biçim", "description": "Tanım", "slug": "Kısa Adı", "label": "Etiket" } },
+  "TaxonomyItems": { "CreateForm": { "content": "İçerik", "classification": "sınıflandırma", "configuration": "Yapılandırma", "typeId": "Tip Kimliği", "parentId": "Ebeveyn Kimliği", "status": "Durum", "order": "Emir", "form": "Biçim", "description": "Tanım", "slug": "Kısa Adı", "label": "Etiket" } },
+  "SupportGroups": {
+    "SupportGroups": "Destek Grubu",
+    "name": "İsim",
+    "tag": "Etiket",
+    "createdAt": "oluşturuldu",
+    "updatedAt": "Güncelleme Tarihi",
+    "operation": "Operasyon",
+    "CreateForm": { "content": "Destek Grupları Oluşturun" },
+    "UpdateForm": { "Title": "Destek Gruplarını Güncelle" }
+  },
+  "SupportTemplates": {
+    "SupportTemplates": "Destek Bileti Yanıt Şablonları",
+    "title": "Başlık",
+    "content": "İçerik",
+    "createdAt": "oluşturuldu",
+    "updatedAt": "Güncelleme Tarihi",
+    "operation": "Operasyon",
+    "CreateForm": { "content": "Destek Bileti Yanıt Şablonu Oluşturun" },
+    "UpdateForm": { "Title": "Destek Bileti Yanıt Şablonunu Güncelle" }
+  },
+  "Submit": "Kaydet",
+  "answerTemplate": "Cevap Şablonu",
+  "AnswerTemplate": {
+    "saveAsBtn": "Yanıt Şablonu Olarak Kaydet",
+    "getTemplateBtn": "Yanıt Şablonunu Alın",
+    "use": "kullanmak"
+  },
+  "DropImagesHere": "Resimleri buraya bırakın",
+  "title": "Başlık",
+  "ok": "Tamam",
+  "error": "Hata",
+  "FilterCreated": "Filtre oluşturuldu",
+  "FilterDeleted": "Filtre silindi",
+  "errorCreateMsg": "Filtre oluşturulurken bir hata oluştu",
+  "errorDeleteMsg": "Filtre silinirken bir hata oluştu",
+  "edit": "Düzenlemek",
+  "columns": "Sütunlar",
+  "InputElements": "Giriş Öğeleri",
+  "FormLayout": "Form Düzeni",
+  "FormLayouts": {
+    "DropHere": "Buraya bırak",
+    "side": "Taraf",
+    "FormLayout": "Form Düzeni",
+    "editFieldMsg": "Lütfen dikkatli olun! her giriş için giriş adı özelliği benzersiz olmalıdır (bu formdaki başka bir girişe benzemez)",
+    "editFieldErrorMsg": "lütfen tüm sekmelerdeki tüm girişleri tamamlayın",
+    "Display": "Görüntülemek",
+    "Validation": "Doğrulama",
+    "InputName": "İsim girin",
+    "InputLabel": "Giriş Etiketi",
+    "OffLabel": "Etiket kapalı",
+    "OnLabel": "Etikette",
+    "Width": "Genişlik",
+    "OptionsTypes": "Seçenekler Türleri",
+    "SelectOptions": "Seçenekleri seçin",
+    "FilterType": "Filtre tipi",
+    "FilterTree": "Filtre Ağacı",
+    "ParentFieldName": "Ana Alan Adı",
+    "ParentFieldMsg": "Bu alan başka bir alana bağımlıysa",
+    "Value": "Değer",
+    "NewOption": "Yeni Seçenek",
+    "InputType": "Giriş tipi",
+    "MinimumCharsMsg": "Minimum Karakter veya uzunluk",
+    "MaximumCharsMsg": "Maksimum Karakter veya uzunluk",
+    "Required": "Gerekli",
+    "readOnly": "Sadece oku",
+    "Label": "Etiket",
+    "Options": "Seçenekler"
+  },
+  "Form": "Biçim",
+  "Tag": "Etiket",
+  "Tags": {
+    "TagsTypes": "Tags Türü",
+    "label": "Etiket",
+    "check": "Kontrol",
+    "slug": "Slug",
+    "selected": "Seçilileri",
+    "createdAt": "OLUŞTURMA TARİHİ",
+    "updatedAt": "GÜNCELLEME TARİHİ",
+    "operation": "Operasyon",
+    "settings": "Ayarlar",
+    "createTag": "Etiket Oluştur",
+    "settingsGroup": {
+      "label": "Sayfa başına kayıt",
+      "apply": "Uygula",
+      "columns": "Sütunlar",
+      "": ""
+    },
+    "filter": "Filtre",
+    "save": "kaydet",
+    "filterGroup": {
+      "clear": "Temiz",
+      "search": "Arama",
+      "saved filters": "Kayıtlı filtreler"
+    }
+  },
+  "NotAllowedTitle": "İzin verilmedi",
+  "NotAllowedMsg": "Bu işlemi yapmanıza izin verilmiyor",
+  "NotAllowedPage": "Bu sayfayı görmenize izin verilmiyor",
+  "Tooltip": {
+    "Remove": "Kaldırmak",
+    "AddNew": "Yeni ekle",
+    "Edit": "Düzenlemek",
+    "Section": "Bölüm",
+    "Tab": "Sekme",
+    "removeOption": "seçeneği kaldır"
+  },
+  "Page": {
+    "title": "Sayfa",
+    "operation": "Operasyon",
+    "templateId": "Şablon Id",
+    "description": "Açıklamalar",
+    "name": "İsim",
+    "CreateForm": {
+      "content": "İçerik",
+      "name": "İsim",
+      "description": "Açıklamalar",
+      "isGeneric": "Genel mi",
+      "settings": "Ayarlar"
+    }
+  },
+  "Template": {
+    "title": "Şablon",
+    "name": "İsim",
+    "width": "Genişlik",
+    "height": "Yükseklik",
+    "description": "Açıklamalar",
+    "createdAt": "oluşturuldu",
+    "updatedAt": "Güncelleme Tarihi",
+    "operation": "Operasyon",
+    "Create": {
+      "title": "Şablon Oluştur"
+    },
+    "Edit": {
+      "title": "Şablonu Düzenle"
+    },
+    "CreateForm": {
+      "content": "İçerik",
+      "name": "İsim",
+      "description": "Açıklamalar",
+      "settings": "Ayarlar",
+      "width": "Genişlik",
+      "height": "Yükseklik",
+      "gap": "Açıklık",
+      "margin": "marj",
+      "padding": "fodra",
+      "small": "küçük",
+      "medium": "orta",
+      "large": "büyük",
+      "components": "bileşenler",
+      "Edit-Mode": "Düzenleme modu",
+      "Preveiw-Mode": "Önizleme modu",
+      "add-new-column": "yeni sütun ekle",
+      "edit-row": "satırı düzenle",
+      "remove-row": "satırı kaldır",
+      "remove-column": "sütunu kaldır",
+      "edit-column": "sütunu düzenle",
+      "new-row": "Yeni Satır",
+      "Screen-Max-Width": "Maksimum Ekran Genişliği",
+      "span": "açıklık",
+      "order": "emir",
+      "NumberOfCols": "Sütun sayısı",
+      "data_table": "Veri tablosu",
+      "categories": "Kategoriler",
+      "data_table_row": "Veri Tablosu Satırı",
+      "numberOfRow": "Girdilerin sayısı",
+      "rowFilterOption": "Veri filtreleme seçeneği",
+      "rowFilterTimeInterval": "Zaman aralığı"
+    }
+  },
+  "Component": {
+    "component": "Bileşen",
+    "title": "Başlık",
+    "name": "İsim",
+    "width": "Genişlik",
+    "height": "Yükseklik",
+    "description": "Açıklamalar",
+    "properties": "Özellikler",
+    "createdAt": "oluşturuldu",
+    "updatedAt": "güncellendi",
+    "operation": "Operasyon",
+    "gap": "Açıklık",
+    "margin": "marj",
+    "padding": "fodra",
+    "Create": {
+      "title": "Bileşen Oluştur"
+    },
+    "Edit": {
+      "title": "Bileşeni Düzenle"
+    },
+    "CreateForm": {
+      "content": "İçerik",
+      "title": "Başlık",
+      "createTitle": "Bileşen özelliği oluştur",
+      "firstStep": "İlk adım",
+      "secondStep": "İkinci adım",
+      "thirdStep": "Üçüncü adım",
+      "finalStep": "Son adım",
+      "prev": "Geri gitmek",
+      "next": "Sonraki",
+      "submit": "Göndermek",
+      "name": "İsim",
+      "type": "Tip",
+      "value": "Değer",
+      "data_table": "Veri tablosu",
+      "data_table_rows": "Veri Tablosu Satırları",
+      "data_table_columns": "Veri Tablosu Sütunları",
+      "description": "Açıklamalar",
+      "properties": "Özellikler",
+      "width": "Genişlik",
+      "height": "Yükseklik",
+      "gap": "Açıklık",
+      "margin": "marj",
+      "categories": "Kategoriler",
+      "padding": "fodra",
+      "staticInputType": "Statik Giriş Türü",
+      "numberOfRow": "Girdilerin sayısı",
+      "rowFilterOption": "Girişler filtre seçeneği",
+      "rowFilterTimeInterval": "Zaman aralığı"
+    },
+    "Properties": {
+      "mainTitle": "Bileşen Özellikleri",
+      "description": "Açıklama",
+      "data_table": "Veri tablosu",
+      "data_table_row": "Veri Tablosu Satırları",
+      "createdAt": "Created At",
+      "title": "Başlık"
+    }
+  },
+  "CreateAccount": {
+    "invalidPasword": "Parola geçerli değil",
+    "passwordCharLength": "Şifre En az 8 karakter olmalıdır"
+  },
+  "Task": {
+    "Tasks": "Görevler",
+    "email": "E-posta",
+    "Table": {
+      "New": "Yeni",
+      "of": "den",
+      "Done": "Tamam",
+      "InProgress": "gelişmekte",
+      "Review": "Gözden geçirmek",
+      "Board": "Pano",
+      "Timeline": "zaman çizelgesi",
+      "I-want-to-see-from": "dan görmek istiyorum",
+      "days-ago-to": "günler önce",
+      "days-later": "günler sonra",
+      "Assigned-by": "Atanmak",
+      "Assigned-to": "Atandı",
+      "From": "İtibaren",
+      "To": "İle"
+    },
+    "Create": {
+      "title": "Başlık",
+      "deadline": "son tarih",
+      "assignedTo": "Atandı",
+      "entryId": "giriş kimliği",
+      "description": "Tanım",
+      "Craete-Task": "Görev Oluştur"
+    },
+    "Edit": {
+      "Edit-Task": "Görevi Düzenle"
+    },
+    "Answer": {
+      "delete-comment": "Silyorumu sil"
+    }
+  },
+  "Message": {
+    "title": "Başlık",
+    "description": "Açıklamalar",
+    "Type-a-message": "Bir mesaj yazın",
+    "contacts": "Kişiler"
+  },
+  "Screen": {
+    "Mobile": "Mobil",
+    "Tablet": "Tablet",
+    "Desktop": "Masaüstü",
+    "edit-screen": "ekranı düzenle"
+  },
+  "Link": {
+    "links": "Bağlantılar",
+    "title": "Başlık",
+    "description": "Tanım",
+    "noParent": "Üst düzey",
+    "operation": "Operasyon",
+    "status": "Durum",
+    "privacy": "Mahremiyet",
+    "target": "Hedef",
+    "Active": "Aktif",
+    "parameter": "Parametre",
+    "Passive": "Pasif",
+    "iconName": "İkon adı",
+    "edit": "Düzenlemek",
+    "sublinks": "Alt bağlantılar",
+    "sublinksOf": "Alt bağlantılar",
+    "delete": "Silmek",
+    "menuType": "Menü Türü",
+    "CreateForm": {
+      "createLink": "Bağlantı Oluştur",
+      "popupHeight": "Açılır pencere yüksekliği",
+      "popupWidth": "Açılır Pencere Genişliği",
+      "parent": "Ebeveyn",
+      "Attachments": "Ekler"
+    }
+  }
+}

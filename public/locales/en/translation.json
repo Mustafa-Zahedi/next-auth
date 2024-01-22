@@ -1,0 +1,976 @@
+{
+  "Common": {
+    "Delete": "Delete",
+    "Cancel": "Cancel",
+    "Save": "Save",
+    "Columns": "Columns",
+    "operation": "Operation"
+  },
+  "Buttons": {
+    "Save": "Save",
+    "Update": "Update",
+    "Delete": "Delete"
+  },
+  "example": {
+    "welcome": "Hoşgeldin {{ name }}"
+  },
+  "PanelHeader": {
+    "Profile": {
+      "AccountInfo": "My Account Information",
+      "Security": "Security",
+      "HelpCenter": "Help center",
+      "SignOut": "Sign out"
+    }
+  },
+  "Menu": {
+    "Create": {
+      "Header": "CREATE",
+      "Content": "Content"
+    },
+    "Start": "START",
+    "Inbox": {
+      "Header": "INBOX",
+      "Communication_messages": "Communication messages"
+    },
+    "Content": {
+      "Header": "ENTRY",
+      "Entry": "News",
+      "Article": "Article",
+      "Photo-entry": "Photo Entry",
+      "Video-entry": "Video Entry",
+      "Poll": "Poll",
+      "Reportage": "Reportage"
+    },
+    "SocialMedia": {
+      "Header": "SOCIAL MEDIA",
+      "Temp": "Temporary"
+    },
+    "Users": {
+      "Header": "USERS",
+      "Groups": "Groups",
+      "Users": "Users",
+      "NicknameIsUsed": "Nickname is used",
+      "uniqueNickname": "Unique nickname"
+    },
+    "Advertisements": {
+      "Header": "ADVERTISEMENTS",
+      "AdvertChannels": "Advertisement Channels",
+      "Ads": "Advertisements"
+    },
+    "Reports": {
+      "Header": "REPORTS",
+      "Temp": "Temporary"
+    },
+    "Accounting": {
+      "Header": "ACCOUNTING",
+      "Income": "Income",
+      "Expense": "Expense"
+    },
+    "Entries": {
+      "Header": "Entries"
+    },
+    "Taxonomies": {
+      "Header": "Taxonomies"
+    },
+    "Supports": {
+      "Header": "Supports"
+    },
+    "LogRecords": {
+      "Header": "Logs"
+    },
+    "Settings": {
+      "LinkManagment": "Link Management",
+      "Header": "SETTINGS",
+      "Settings": "Settings",
+      "Thema": "Thema",
+      "Email": "Email Accounts",
+      "Tickets": "Support Tickets",
+      "Templates": "Answer Template",
+      "Groups": "Support Groups",
+      "EntryTypes": "Entry Types",
+      "FormLayouts": "Form Layouts",
+      "Tags": "Tags",
+      "TaxonomyTypes": "Taxonomy Types",
+      "TaxonomyItems": "Taxonomy Items",
+      "LogRecords": "Log Records",
+      "Redirect": "Redirect"
+    },
+    "System": {
+      "Header": "SYSTEM",
+      "Settings": "System",
+      "logs": "Operation Logs"
+    },
+    "Help": {
+      "Header": "HELP",
+      "Documents": "Documents",
+      "Videos": "Videos"
+    },
+    "Other": {
+      "Header": "OTHERS",
+      "Temp": "Temporary"
+    },
+    "Template": {
+      "Header": "Template",
+      "carousel": "carousel",
+      "authors": "authors",
+      "header": "header",
+      "authorsAsCarousel": "authorsAsCarousel",
+      "accordion": "Accordion",
+      "tab": "Tab",
+      "slider": "Slider",
+      "authorNew": "authorNew"
+    },
+    "ViewDesign": {
+      "Header": "View Design",
+      "page": "Page",
+      "template": "Template",
+      "component": "Component",
+      "authorsAsCarousel": "authorsAsCarousel",
+      "accordion": "Accordion",
+      "tab": "Tab",
+      "slider": "Slider",
+      "authorNew": "authorNew"
+    }
+  },
+  "Login": {
+    "Wellcome": "Wellcome",
+    "yourSessionIsOpened": "Your Session is opened",
+    "error": "Error",
+    "sessionError": "Session Error",
+    "userInfoReceived": "User info received",
+    "userOrPasswordIsInvalid": "User or Password is invalid",
+    "signIn": "Sign in",
+    "forgotPasswordMsg": "Forgot your password?",
+    "createAccount": "Create account",
+    "dontHaveAccountMsg": "Do not have an account yet?"
+  },
+  "Profile": {
+    "MyProfile": "Profile Information",
+    "MyProfile_desc": "Profile Information Description",
+    "Email": "E-mail",
+    "Title": "Title",
+    "Name": "First Name",
+    "LastName": "Last name",
+    "NickName": "Nick name",
+    "ProfilePhoto": "Profile Photo",
+    "SelectFile": "Select File",
+    "Resume": "Resume",
+    "Resume_Desc": "Resume text to show at realated areas",
+    "Contacts": "Contacts",
+    "Contacts_desc": "You can enter your contacts of your web ste or social media.",
+    "Security": "Security",
+    "Security_desc": "You can manage your profile security",
+    "Password": "Password",
+    "Password_desc": "Update your Password",
+    "CurrentPassword": "Current Password",
+    "PasswordAgain": "Password Repeat",
+    "UpdatePassword": "UpdatePassword",
+    "Groups": "Groups",
+    "Categories": "Categories",
+    "Settings": "Settings",
+    "Localization": "Localization",
+    "Localization_desc": "You can set your localization preferences",
+    "Language": "Language",
+    "TimeZone": "TimeZone",
+    "Others": "Others",
+    "NoCommentOnMyContent": "Do not allow cooment on my content",
+    "UseMyNicknameOnMyContent": "Use my nick name on my content",
+    "UseMyNicknameOnMyComments": "Use my nick name on my comments",
+    "UsersCanNotSendMessageToMe": "Users can not send message to me",
+    "DoNotShowMeAmongWriters": "Do not show me among writers",
+    "2-StepVerification": "2-step verification",
+    "2-StepVerification_desc": "Sign in using a 2-step verification code",
+    "SmsVerification": "SMS verification",
+    "SmsVerification_desc": "Sign in using an SMS verification code",
+    "EmailVerification": "Email verification",
+    "EmailVerification_desc": "Sign in using an SMS verification code",
+    "IPlimitation": "IP limitation",
+    "IPlimitation_desc": "Limit the IP addresses that can log in with your account",
+    "NicknameIsUsed": "Nickname is used",
+    "EmailIsUsed": "Email is used",
+    "area": "Area",
+    "Biography": "Biography",
+    "Bio_describe": "User biography"
+  },
+  "Error": "Error",
+  "sil": {
+    "Begin": "Begin",
+    "Inbox-": "Inbox -eng -test1",
+    "Messages": "Messages",
+    "Subscriptions": "Subscriptions",
+    "User": "User",
+    "AdvertChannels": "AdvertChannels",
+    "Incomes": "Incomes",
+    "Expenses": "Expenses",
+    "Thema": "Thema",
+    "Site": "Site",
+    "Support": "Support",
+    "Help_documents": "Help Documents",
+    "Support_tickets": "Support Tickets",
+    "Publish": "Publish",
+    "UnPublish": "UnPublish",
+    "Move": "Move",
+    "Delete": "Delete",
+    "The_Selected": "Selected"
+  },
+  "Groups": {
+    "title": "User Groups",
+    "id": "ID",
+    "groupName": "Name",
+    "slug": "Slug",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "warningYouAreDeletingUserGroup": "You are deleting User Group!",
+    "addNewUserGroup": "Add New User Group",
+    "userGroupWillBeDeletedThisCannotBeRecovered": "User groups will be delete, this can not be recovered",
+    "userGroupEdit": "Edit User Group",
+    "saved": "Saved",
+    "saveOperationCompleted": "Save Operation Completed",
+    "error": "Error",
+    "GroupInfo": "Group Info",
+    "GroupDetails": "Group Details",
+    "GroupDetailsDescription": "Grup Detail Information",
+    "GroupName": "Group Name",
+    "GroupSlug": "Group Slug ",
+    "GroupPermissions": "Group Permissions",
+    "GroupPermissionsDescription": "Group Permission Information",
+    "Inbox-": "Inbox -eng -test1",
+    "Messages": "Messages",
+    "Subscriptions": "Subscriptions",
+    "User": "User",
+    "AdvertChannels": "AdvertChannels",
+    "Incomes": "Incomes",
+    "Expenses": "Expenses",
+    "Thema": "Thema",
+    "Site": "Site",
+    "Support": "Support",
+    "Help_documents": "Help Documents",
+    "Support_tickets": "Support Tickets"
+  },
+  "Permissions": {
+    "can_login": "can login",
+    "can_login_panel": "Can login panel",
+    "can_see_dashboard": "Can see dashboard",
+    "can_see_inbox": "Can see inbox",
+    "can_see_content": "Can see content",
+    "can_see_settings": "Can see settings",
+    "can_see_system": "Can See System",
+    "can_see_users": "Can see users",
+    "can_see_user": "Can see user",
+    "can_see_help": "Can see help",
+    "can_see_payments": "Can see payments",
+    "can_see_reports": "Can see reports",
+    "can_see_adverts": "Can see adverts",
+    "can_see_social": "Can see social",
+    "can_do_user": "Can Do User",
+    "can_do_users": "Can Do Users",
+    "can_do_login": "Can Do Login",
+    "can_do_checkToken": "Can Do CheckToken",
+    "can_do_checkNickName": "Can Do Check Nick Name",
+    "can_do_checkEmail": "Can Do Check Email",
+    "can_do_userProperty": "Can Do User Property",
+    "can_do_userSetting": "Can Do User Setting",
+    "can_do_userSettings": "Can Do User Settings",
+    "can_do_userGroup": "Can Do User Group",
+    "can_do_userGroups": "Can Do User Groups",
+    "can_do_userGroupsWithoutPager": "Can Do User Groups Without Pager",
+    "can_do_userGroupPermission": "Can Do User Group Permission",
+    "can_do_userGroupPermissionsWithGroupId": "Can Do User Group Permissions With Group Id",
+    "can_do_userGroupPermissionsWithUserId": "Can Do User Group Permissions With User Id",
+    "can_do_relation": "Can Do Relation",
+    "can_do_filter": "Can Do Filter",
+    "can_do_filters": "Can Do Filters",
+    "can_do_listBuckets": "Can Do List Buckets",
+    "can_do_otherFields": "Can Do Other Fields",
+    "can_do_hasBankAccount": "Can Do Has Bank Account",
+    "can_do_bankAccount": "Can Do Bank Account",
+    "can_do_taxonomyType": "Can Do Taxonomy Type",
+    "can_do_taxonomyTypes": "Can Do Taxonomy Types",
+    "can_do_taxonomyTypesTable": "Can Do Taxonomy Types Table",
+    "can_do_TaxonomyItem": "Can Do Taxonomy Item",
+    "can_do_taxonomyItems": "Can Do Taxonomy Items",
+    "can_do_userProperties": "Can Do User Properties",
+    "can_do_taxonomyItemsTree": "Can Do Taxonomy Items Tree",
+    "can_do_taxonomyItemsTable": "Can Do Taxonomy Items Table",
+    "can_do_log": "Can Do Log",
+    "can_do_logs": "Can Do Logs",
+    "can_do_logsBySourceType": "Can Do Logs By Source Type",
+    "can_do_logsBySourceTypeAndId": "Can Do Logs By Source Type And Id",
+    "can_do_logsByUser": "Can Do Logs By User",
+    "can_do_createUser": "Can Do Create User",
+    "can_do_updateUser": "Can Do Update User",
+    "can_do_deleteUser": "Can Do Delete User",
+    "can_do_deleteUsers": "Can Do Delete Users",
+    "can_do_createUserProperty": "Can Do Create User Property",
+    "can_do_storeUserProperty": "Can Do Store User Property",
+    "can_do_updateUserProperty": "Can Do Update User Property",
+    "can_do_deleteUserProperty": "Can Do Delete User Property",
+    "can_do_updateUserSetting": "Can Do Update User Setting",
+    "can_do_deleteUserSetting": "Can Do Delete User Setting",
+    "can_do_createUserGroup": "Can Do Create User Group",
+    "can_do_updateUserGroup": "Can Do Update User Group",
+    "can_do_deleteUserGroup": "Can Do Delete User Group"
+  },
+  "Settings": {
+    "Settings": "Settings",
+    "Thema": "Tema",
+    "OtherSettings": "Other Settings",
+    "SettingsList": "Settings List",
+
+    "LicenseInformation": "License Information",
+    "LicenseHolder": "License Holder",
+    "LicenseKey": "License Key",
+    "LicenseValidity": "License Validiy",
+    "ServiceAgreement": "License Agreement",
+
+    "RestAPIAccessInformation": "Rest API Access Information",
+    "APIKey": "API Key",
+    "Documentation": "Documentation",
+    "ExcludedContent": "Excluded Content",
+    "FreeJSONForSettings": "Free JSON For Settings",
+
+    "CorporateInformation": "Corporate Information",
+    "OfficalTitle": "Offical Title",
+    "CommonName": "Common Name",
+
+    "ContactInformation": "Contact Information",
+    "SubscriptionTransactionsEMail": "Subscription Transactions E.Mail",
+    "InternationalPhonePrefix": "International Phone Prefix",
+    "Fax": "Fax",
+    "WhatsAppNotificationNumber": "WhatsApp İhbar Numarası",
+    "ContactAddress": "Contact Address",
+    "LocationInformation": "Location Information",
+    "OtherAddressInformation": "Other Address Information",
+
+    "AuthorizedInformation": "Authorized Information",
+    "NameSurname": "Name Surname",
+    "PhoneNumber": "Phone Number",
+
+    "BillingInformation": "Billing Information",
+    "Publishing": "Publishing",
+    "Type": "Type",
+    "CompanyTitle": "Company Title",
+    "ShortTitle": "Short Title",
+    "TaxOffice": "Tax Office",
+    "TaxNumber": "Tax Number",
+    "PostCode": "Post Code",
+    "Address": "Address",
+
+    "DirectoryCategories": "Directory Categories",
+    "Accounting": "Accounting",
+
+    "Province": "Province",
+    "District": "District",
+    "Country": "Country",
+    "Telephone": "Telephone",
+    "EMail": "E-Mail",
+    "EMail2": "E-Mail 2",
+    "EMail3": "E-Mail 3",
+
+    "BankAccountInfo": "Bank Account Info",
+    "AccountName": "Account Name",
+    "BankName": "Bank Name",
+    "AccountHolder": "Account Holder",
+    "IBANNumber": "IBAN Number",
+    "Currency": "Currency",
+    "BranchCode": "Brach Code",
+    "SWIFTCode": "SWIFT Code",
+
+    "saved": "Saved",
+    "saveOperationCompleted": "Save Operation Completed",
+    "error": "Error",
+    "updateOperationCompleted": "Update Operation Completed",
+    "pickOne": "Pick one",
+    "label": "Page per record",
+    "btnText": "Apply"
+  },
+  "Filter": {
+    "title": "Filter",
+    "saveBtn": "Save",
+    "clean": "Clean",
+    "search": "Search",
+    "call": {
+      "call": "Call",
+      "title": "title",
+      "applyBtnText": "Apply",
+      "resetBtnText": "Reset",
+      "placeHolder": "You can search by name, surname or E.Mail.",
+      "placeHolderTags": "You can search by name, slug or Contains."
+    },
+    "driver": {
+      "label": "Saved filters",
+      "list": {
+        "placeholder": "Title",
+        "saveBtn": "Save"
+      },
+      "message": "You currently do not have any saved searches. After applying the filter process, you can record the call and then quickly make the same call."
+    }
+  },
+  "EntryType": {
+    "id": "Id",
+    "label": "Label",
+    "slug": "Slug",
+    "operation": "Operation",
+    "EntryTypes": "Entry Types"
+  },
+  "Entry": {
+    "id": "Id",
+    "isDraft": "Is Draft",
+    "Status": "Status",
+    "isDeleted": "Is Deleted",
+    "Name": "Name",
+    "createdAt": "Created At",
+    "warningYouAreDeletingEntry": "You are deleting Entry",
+    "warningAreYouSureDeletingEntry": "Are you sure?",
+    "Entry": {
+      "contentType": "Content Type",
+      "content": "List"
+    },
+    "operation": "Operation"
+  },
+  "TaxonomyType": {
+    "taxonomyTypes": "Taxonomy Types",
+    "label": "Label",
+    "check": "Check",
+    "slug": "Slug",
+    "selected": "Selected",
+    "description": "Description",
+    "operation": "Operation",
+    "settings": "Settings",
+    "settingsGroup": {
+      "label": "Registration per page",
+      "apply": "Apply",
+      "columns": "Columns",
+      "": ""
+    },
+    "save": "Save",
+    "filterGroup": {
+      "clear": "Clear",
+      "search": "Search",
+      "saved filters": "Saved filters"
+    }
+  },
+  "Users": {
+    "title": "Users",
+    "email": "Email",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "image": "Image",
+    "editUser": "Edit User"
+  },
+  "AllUsers": {
+    "imageUrl": "ImageUrl",
+    "email": "Email",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "operation": "Operation",
+    "AllUsers": "All Users"
+  },
+  "toolbar": {
+    "operation": "Operation",
+    "selected": "Selected"
+  },
+  "operation": {
+    "delete": {
+      "askMessage": "You are deleting, are you sure?",
+      "delete": "Delete",
+      "cancel": "Cancel"
+    },
+    "edit": {
+      "askMessage": "You are deleting, are you sure?",
+      "explanation": "Explanation"
+    }
+  },
+  "FormType": {
+    "id": "Id",
+    "title": "Title",
+    "layout": "Layout",
+    "operation": "Operation",
+    "formLayout": "Form Layout"
+  },
+  "TaxonomyItem": {
+    "id": "Id",
+    "label": "Label",
+    "slug": "Slug",
+    "description": "Description",
+    "operation": "Operation",
+    "TaxonomyItems": "Taxonomy Items"
+  },
+  "Action": {
+    "Publish": "Publish",
+    "UnPublish": "UnPublish",
+    "Move": "Move",
+    "Delete": "Delete",
+    "The_Selected": "Selected",
+    "Approve": "Approve",
+    "Reject": "Reject"
+  },
+  "FormLayoutHistory": {
+    "Title": "Form Layout History",
+    "description": "Form Layout History Description",
+    "layout": "Layout",
+    "label": "Label",
+    "restore": "Restore",
+    "title": "Title"
+  },
+  "EntryTableHistory": {
+    "Title": "Entry Table History",
+    "description": "Entry Table History Description",
+    "content": "Content",
+    "label": "Label",
+    "restore": "Restore",
+    "title": "Title"
+  },
+  "updatedAt": "Updated At",
+  "createdAt": "Created At",
+  "user": "User",
+  "test": {
+    "test": "İçerik"
+  },
+  "EmailAccount": {
+    "id": "Id",
+    "from": "From",
+    "name": "Name",
+    "password": "Password",
+    "operation": "Operation",
+    "forward": "Forward",
+    "createdBy": "CreatedBy",
+    "EmailAccounts": "Email Accounts"
+  },
+  "SupportTickets": {
+    "id": "Id",
+    "userId": "User Id",
+    "categoryId": "Category Id",
+    "responsibleGroupId": "Responsible Group Id",
+    "supportGroup": "Support Group",
+    "responsibleUserUuid": "Responsible User Uuid",
+    "title": "Title",
+    "url": "Url",
+    "content": "Content",
+    "urgency": "Urgency",
+    "status": "Status",
+    "createdAt": "Created At",
+    "updatedAt": "updated At",
+    "operation": "Operation",
+    "SupportTickets": "Support Tickets",
+    "SupportTicketsEdit": "Support Tickets Edit",
+    "CreateSupportTickets": "Create Support Tickets"
+  },
+  "LogRecord": {
+    "id": "Id",
+    "userUuid": "user Uuid",
+    "img": "User Image",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "type": "Type",
+    "code": "Code",
+    "message": "Message",
+    "sourceType": "Source Type",
+    "sourceId": "Source Id",
+    "ip": "IP",
+    "port": "Port",
+    "agent": "Agent",
+    "createdAt": "created At",
+    "operation": "Operation",
+    "LogRecords": "Log Records"
+  },
+  "Alert": {
+    "Delete": {
+      "message": "You are deleting, are you sure?",
+      "confirm": "confirm",
+      "cancel": "cancel",
+      "deleteTitle": "Delete",
+      "successMsg": "deleted successfully"
+    },
+    "Create": {
+      "successTitle": "Inserted",
+      "successMsg": "Created successfully",
+      "errorTitle": "Something went wrong!",
+      "errorMsg": "Not created"
+    },
+    "Update": {
+      "successTitle": "Updated",
+      "successMsg": "updated successfully",
+      "errorTitle": "Something went wrong!",
+      "errorMsg": "Could not update content"
+    },
+    "error": "Error",
+    "TableAlert": {
+      "title": "Content not found!",
+      "message": "Please review your search criteria and try again.",
+      "error": "Something went wrong!"
+    },
+    "Save": {
+      "saved": "Saved",
+      "successMsg": "Content successfully created",
+      "error": "Error",
+      "errorMsg": "Could not create content"
+    }
+  },
+  "entryType": "Entry Type",
+  "taxonomyType": "Taxonomy Type",
+  "taxonomyItem": "Taxonomy Item",
+  "supportTicket": "Support Ticket",
+  "supportGroup": "Support Group",
+  "emailAccount": "Email Account",
+  "EmailAccounts": {
+    "CreateForm": {
+      "content": "Content",
+      "name": "Name",
+      "password": "Password",
+      "confirm_password": "Confirm Password",
+      "email": "Email to forward"
+    }
+  },
+  "EntryTypes": {
+    "CreateForm": {
+      "content": "Content",
+      "form": "Form",
+      "settings": "Settings",
+      "slug": "Slug",
+      "link_structure": "Link Structure",
+      "label": "Label"
+    }
+  },
+  "TaxonomyTypes": {
+    "CreateForm": {
+      "content": "Content",
+      "form": "Form",
+      "description": "Description",
+      "slug": "Slug",
+      "label": "Label"
+    }
+  },
+
+  "TaxonomyItems": {
+    "CreateForm": {
+      "content": "Content",
+      "classification": "Classification",
+      "configuration": "Configuration",
+      "typeId": "Type Id",
+      "parentId": "Parent Id",
+      "status": "Status",
+      "order": "Order",
+      "form": "Form",
+      "description": "Description",
+      "slug": "Slug",
+      "label": "Label"
+    }
+  },
+  "SupportGroups": {
+    "SupportGroups": "Support Groups",
+    "name": "Name",
+    "tag": "Tag",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "operation": "Operation",
+    "CreateForm": {
+      "content": "Create Support Groups"
+    },
+    "UpdateForm": {
+      "Title": "Update Support Groups"
+    }
+  },
+  "SupportTemplates": {
+    "SupportTemplates": "Support Ticket Answer Templates",
+    "title": "Title",
+    "content": "Content",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "operation": "Operation",
+    "CreateForm": {
+      "content": "Create Support Ticket Answer Template"
+    },
+    "UpdateForm": {
+      "Title": "Update Support Ticket Answer Template"
+    }
+  },
+  "Submit": "Submit",
+  "answerTemplate": "Answer Template",
+  "AnswerTemplate": {
+    "saveAsBtn": "Save as Answer Template",
+    "getTemplateBtn": "Get Answer Template",
+    "use": "Use"
+  },
+  "DropImagesHere": "Drop images here",
+  "title": "Title",
+  "ok": "Ok",
+  "error": "Error",
+  "FilterCreated": "Filter created",
+  "FilterDeleted": "Filter deleted",
+  "errorCreateMsg": "An error occurred while creating the filter",
+  "errorDeleteMsg": "An error occurred while deleting the filter",
+  "edit": "Edit",
+  "columns": "Columns",
+  "InputElements": "Input Elements",
+  "FormLayout": "Form Layout",
+  "FormLayouts": {
+    "DropHere": "Drop here",
+    "FormLayout": "Form Layout",
+    "side": "Side",
+    "editFieldMsg": "Please be carful! the input name property for each input should be unique(not similar to another input in this form)",
+    "editFieldErrorMsg": "please complete all inputs in all tabs",
+    "Display": "Display",
+    "Validation": "Validation",
+    "InputName": "Input Name",
+    "InputLabel": "Input Label",
+    "OffLabel": "Off Label",
+    "OnLabel": "On Label",
+    "Width": "Width",
+    "OptionsTypes": "Options Types",
+    "SelectOptions": "Select Options",
+    "FilterType": "Filter Type",
+    "FilterTree": "Filter Tree",
+    "ParentFieldName": "Parent Field Name",
+    "ParentFieldMsg": "If this field is dependent on another field",
+    "Value": "Value",
+    "NewOption": "New Option",
+    "InputType": "Input Type",
+    "MinimumCharsMsg": "Minimum Characters",
+    "MaximumCharsMsg": "Maximum Characters",
+    "Required": "Required",
+    "readOnly": "ReadOnly",
+    "Label": "Label",
+    "Options": "Options"
+  },
+  "Form": "Form",
+  "Tag": "Tag",
+  "Tags": {
+    "tags": "Tags",
+    "tagsTypes": "Tags Types",
+    "label": "Label",
+    "check": "Check",
+    "slug": "Slug",
+    "selected": "Selected",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "operation": "Operation",
+    "settings": "Settings",
+    "createTag": "Create Tag",
+    "settingsGroup": {
+      "label": "Registration per page",
+      "apply": "Apply",
+      "columns": "Columns"
+    },
+    "save": "Save",
+    "filterGroup": {
+      "clear": "Clear",
+      "search": "Search",
+      "saved filters": "Saved filters"
+    }
+  },
+  "NotAllowedTitle": "Not allowed",
+  "NotAllowedMsg": "You are not allowed to do this operation",
+  "NotAllowedPage": "You are not allowed to see this page",
+  "Tooltip": {
+    "Remove": "Remove",
+    "AddNew": "Add New",
+    "Edit": "Edit",
+    "Section": "Section",
+    "Tab": "Tab",
+    "removeOption": "remove option"
+  },
+  "Page": {
+    "title": "Page",
+    "operation": "Operation",
+    "templateId": "Template Id",
+    "description": "Description",
+    "name": "Name",
+    "CreateForm": {
+      "content": "Content",
+      "name": "Name",
+      "description": "Description",
+      "isGeneric": "isGeneric",
+      "settings": "Settings"
+    }
+  },
+  "Template": {
+    "title": "Template",
+    "name": "Name",
+    "width": "Width",
+    "height": "Height",
+    "description": "Description",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "operation": "Operation",
+    "Create": {
+      "title": "Create Template"
+    },
+    "Edit": {
+      "title": "Edit Template"
+    },
+    "CreateForm": {
+      "content": "Content",
+      "name": "Name",
+      "description": "Description",
+      "settings": "Settings",
+      "width": "Width",
+      "height": "Height",
+      "minWidth": "Min Width",
+      "maxWidth": "Max Width",
+      "gap": "Gap",
+      "margin": "Margin",
+      "padding": "Padding",
+      "small": "small",
+      "medium": "medium",
+      "large": "large",
+      "components": "components",
+      "Edit-Mode": "Edit Mode",
+      "Preview-Mode": "Preview Mode",
+      "add-new-column": "add new column",
+      "edit-row": "edit row",
+      "remove-row": "remove row",
+      "remove-column": "remove column",
+      "edit-column": "edit column",
+      "new-row": "New Row",
+      "Screen-Max-Width": "Screen Max Width",
+      "span": "span",
+      "order": "order",
+      "NumberOfCols": "Number Of Columns",
+      "data_table": "Data Table",
+      "categories": "Categories",
+      "data_table_row": "Row of Data Table",
+      "numberOfRow": "Number of entries",
+      "rowFilterOption": "Entries filter option",
+      "rowFilterTimeInterval": "Time interval"
+    }
+  },
+  "Component": {
+    "component": "Component",
+    "title": "Title",
+    "name": "Name",
+    "width": "Width",
+    "height": "Height",
+    "description": "Description",
+    "properties": "Properties",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "operation": "Operation",
+    "gap": "Gap",
+    "margin": "Margin",
+    "padding": "Padding",
+    "Create": {
+      "title": "Create Component"
+    },
+    "Edit": {
+      "title": "Edit Component"
+    },
+    "CreateForm": {
+      "createTitle": "Create component property",
+      "content": "Content",
+      "title": "Title",
+      "firstStep": "First Step",
+      "secondStep": "Second Step",
+      "thirdStep": "Third Step",
+      "finalStep": "Final Step",
+      "prev": "Go back",
+      "next": "Next",
+      "submit": "Submit",
+      "name": "Name",
+      "type": "Type",
+      "description": "Description",
+      "properties": "Properties",
+      "value": "Value",
+      "data_table": "Data Table",
+      "data_table_rows": "Data Table Rows",
+      "data_table_columns": "Data Table Columns",
+      "width": "Width",
+      "height": "Height",
+      "gap": "Gap",
+      "categories": "Categories",
+      "margin": "Margin",
+      "padding": "Padding",
+      "staticInputType": "Static Input Type",
+      "numberOfRow": "Number of entries",
+      "rowFilterOption": "Entries filter option",
+      "rowFilterTimeInterval": "Time interval"
+    },
+    "Properties": {
+      "mainTitle": "Component Properties",
+      "description": "Description",
+      "data_table": "Data Table",
+      "data_table_row": "Rows",
+      "createdAt": "Created At",
+      "title": "Title"
+    }
+  },
+  "CreateAccount": {
+    "invalidPasword": "Password is not valid",
+    "passwordCharLength": "Password Must At leaset 8 character"
+  },
+  "Task": {
+    "Tasks": "Tasks",
+    "email": "Email",
+    "Table": {
+      "New": "New",
+      "of": "of",
+      "Done": "Done",
+      "InProgress": "In Progress",
+      "Review": "Review",
+      "Board": "Board",
+      "Timeline": "Timeline",
+      "I-want-to-see-from": "I want to see from",
+      "days-ago-to": "days ago to",
+      "days-later": "days later",
+      "Assigned-by": "Assigned by",
+      "Assigned-to": "Assigned to",
+      "From": "From",
+      "To": "To"
+    },
+    "Create": {
+      "title": "Title",
+      "deadline": "Deadline",
+      "assignedTo": "Assigned To",
+      "entryId": "Entry Id",
+      "description": "Description",
+      "Craete-Task": "Craete Task"
+    },
+    "Edit": {
+      "Edit-Task": "Edit Task"
+    },
+    "Answer": {
+      "delete-comment": "Delete comment"
+    }
+  },
+  "Message": {
+    "title": "Title",
+    "description": "Description",
+    "Type-a-message": "Type a message",
+    "contacts": "Contacts"
+  },
+  "Screen": {
+    "Mobile": "Mobile",
+    "Tablet": "Tablet",
+    "Desktop": "Desktop",
+    "edit-screen": "edit screen"
+  },
+  "Link": {
+    "links": "Links",
+    "title": "Title",
+    "description": "Description",
+    "noParent": "Top Level",
+    "operation": "Operation",
+    "status": "Status",
+    "privacy": "Privacy",
+    "target": "Target",
+    "Active": "Active",
+    "Passive": "Passive",
+    "parameter1": "Parameter 1",
+    "parameter2": "Parameter 2",
+    "iconName": "Icon Name",
+    "edit": "Edit",
+    "sublinks": "Sublinks",
+    "sublinksOf": "Sublinks of",
+    "delete": "Delete",
+    "menuType": "Menu Type",
+    "CreateForm": {
+      "createLink": "Create Link",
+      "popupHeight": "Popup Height",
+      "popupWidth": "Popup Width",
+      "parent": "Parent",
+      "Attachments": "Attachments"
+    }
+  }
+}

@@ -12,10 +12,11 @@ export default async function Navigation() {
     <Flex>
       {[
         { title: "Home", url: "/" },
-        { title: "Subscribed", url: "/users/news" },
-        { title: "Members", url: "/users/member" },
-        { title: "Client", url: "/users/client-member" },
-        { title: "Public", url: "/users" },
+        { title: "All Users", url: "/user/all-user" },
+        // { title: "Subscribed", url: "/users/news" },
+        // { title: "Members", url: "/users/member" },
+        // { title: "Client", url: "/users/client-member" },
+        // { title: "Public", url: "/users" },
       ].map((path) => (
         <List p={"md"} key={path.title}>
           <Link href={path.url}>{path.title}</Link>

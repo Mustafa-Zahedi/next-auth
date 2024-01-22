@@ -6,6 +6,8 @@ import "@mantine/core/styles.css";
 import "./globals.css";
 import Navigation from "../components/nav";
 import AuthProvider from "../components/authProvider";
+import { I18nextProvider } from "react-i18next";
+import i18n from "@/utils/i18n";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,14 +28,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <MantineProvider theme={theme}>
-          <AuthProvider>
-            <Navigation />
-            <Stack m={"xl"} justify="center" w={"100%"}>
-              {children}
-            </Stack>
-          </AuthProvider>
-        </MantineProvider>
+        <I18nextProvider i18n={i18n}>
+          <MantineProvider theme={theme}>
+            <AuthProvider>
+              <Navigation />
+              <Stack m={"xl"} justify="center" w={"100%"}>
+                {children}
+              </Stack>
+            </AuthProvider>
+          </MantineProvider>
+        </I18nextProvider>
       </body>
     </html>
   );

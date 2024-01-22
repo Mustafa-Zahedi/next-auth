@@ -1,0 +1,294 @@
+{
+  "Common": {
+    "Delete": "Delete",
+    "Cancel": "Cancel",
+    "Save": "Save"
+  },
+  "Buttons": {
+    "Save": "Sauver",
+    "Update": "Mettre à jour",
+    "Delete": "Supprimer"
+  },
+  "example": {
+    "welcome": "Hoşgeldin {{ name }}"
+  },
+  "Menu": {
+    "Start": "DÉBUT",
+    "Inbox": {
+      "Header": "BOÎTE DE RÉCEPTION",
+      "Communication_messages": "Messages de communication"
+    },
+    "Content": {
+      "Header": "ENTRÉE",
+      "Entry": "Nouvelles",
+      "Article": "Article",
+      "Photo-entry": "Entrée photo",
+      "Video-entry": "Entrée vidéo",
+      "Poll": "Sondage",
+      "Reportage": "Reportage"
+    },
+    "SocialMedia": {
+      "Header": "DES MÉDIAS SOCIAUX",
+      "Temp": "Temporaire"
+    },
+    "Users": {
+      "Header": "UTILISATEURS",
+      "Groups": "Groupes",
+      "Users": "Utilisateurs"
+    },
+    "Advertisements": {
+      "Header": "Annonces",
+      "AdvertChannels": "Canaux publicitaires",
+      "Ads": "Annonces"
+    },
+    "Reports": {
+      "Header": "RAPPORTS",
+      "Temp": "Temporaire"
+    },
+    "Accounting": {
+      "Header": "COMPTABILITÉ",
+      "Income": "Income",
+      "Expense": "Revenu"
+    },
+    "Entries": {
+      "Header": "Entrées"
+    },
+    "Taxonomies": {
+      "Header": "Taxonomies"
+    },
+    "Supports": {
+      "Header": "Les soutiens"
+    },
+    "Settings": {
+      "Header": "SETTINGS",
+      "Settings": "Paramètres",
+      "Thema": "Le ma",
+      "Email": "Comptes mail",
+      "Tickets": "Billets d'assistance",
+      "EntryTypes": "Types d'entrée",
+      "FormLayouts": "Dispositions de formulaire",
+      "TaxonomyTypes": "Types de taxonomie",
+      "TaxonomyItems": "Articles de taxonomie"
+    },
+    "System": {
+      "Header": "SYSTÈME",
+      "Settings": "Système",
+      "logs": "Journaux d'opération"
+    },
+    "Help": {
+      "Header": "AIDER",
+      "Documents": "Documents",
+      "Videos": "Vidéos"
+    },
+    "Other": {
+      "Header": "AUTRES",
+      "Temp": "Temporaire"
+    }
+  },
+  "Login": {
+    "Wellcome": "Bienvenue",
+    "yourSessionIsOpened": "Votre session est ouverte",
+    "error": "Error",
+    "userOrPasswordIsInvalid": "L'utilisateur ou le mot de passe est invalide"
+  },
+  "Profile": {
+    "MyProfile": "Informations sur le profil",
+    "MyProfile_desc": "Informations sur le profil Description",
+    "Email": "E-mail",
+    "Title": "Titre",
+    "Name": "Nom",
+    "LastName": "Nom de famille",
+    "NickName": "Surnom",
+    "ProfilePhoto": "Photo de profil",
+    "SelectFile": "Choisir le dossier",
+    "Resume": "Reprendre",
+    "Resume_Desc": "Texte de reprise à afficher dans les zones liées",
+    "Contacts": "Contacts",
+    "Contacts_desc": "Vous pouvez entrer vos contacts de votre site Web ou de vos médias sociaux.",
+    "Security": "Sécurité",
+    "Security_desc": "Vous pouvez gérer la sécurité de votre profil",
+    "Password": "Mot de passe",
+    "Password_desc": "Mettez à jour votre mot de passe",
+    "CurrentPassword": "Mot de passe actuel",
+    "PasswordAgain": "Mot de passe à nouveau",
+    "UpdatePassword": "Mettre à jour le mot de passe",
+    "Groups": "Groupes",
+    "Categories": "Catégories",
+    "Settings": "Paramètres",
+    "Localization": "Localisation",
+    "Localization_desc": "Vous pouvez définir vos préférences de localisation",
+    "Language": "Langue",
+    "TimeZone": "Fuseau horaire",
+    "Others": "Autres",
+    "NoCommentOnMyContent": "Ne pas autoriser les commentaires sur mon contenu",
+    "UseMyNicknameOnMyContent": "Utiliser mon pseudo sur mon contenu",
+    "UseMyNicknameOnMyComments": "Utiliser mon pseudo dans mes commentaires",
+    "UsersCanNotSendMessageToMe": "Les utilisateurs ne peuvent pas m'envoyer de message",
+    "DoNotShowMeAmongWriters": "Ne me montrez pas parmi les écrivains"
+  },
+  "Error": "Erreur",
+  "sil": {
+    "Begin": "Commencer",
+    "Inbox-": "Boîte de réception -eng -test1",
+    "Messages": "messages",
+    "Subscriptions": "Abonnements",
+    "User": "Utilisateur",
+    "AdvertChannels": "Canaux d'annonces",
+    "Incomes": "Revenus",
+    "Expenses": "Dépenses",
+    "Thema": "Le ma",
+    "Site": "Placer",
+    "Support": "Soutien",
+    "Help_documents": "Documents d'aide",
+    "Support_tickets": "Billets d'assistance",
+    "Publish": "Publier",
+    "UnPublish": "Annuler la publication",
+    "Move": "Bouge toi",
+    "Delete": "effacer",
+    "The_Selected": "choisie"
+  },
+  "Groups": {
+    "title": "Groupes d'utilisateurs",
+    "id": "ID",
+    "groupName": "NOM DU GROUPE2",
+    "slug": "LIMACE",
+    "createdAt": "CRÉÉ À",
+    "warningYouAreDeletingUserGroup": "Vous supprimez le groupe d'utilisateurs !",
+    "addNewUserGroup": "Ajouter un nouveau groupe d'utilisateurs",
+    "userGroupWillBeDeletedThisCannotBeRecovered": "Les groupes d'utilisateurs seront supprimés, cela ne peut pas être récupéré",
+    "userGroupEdit": "Modifier le groupe d'utilisateurs",
+    "saved": "Enregistré",
+    "saveOperationCompleted": "Enregistrer l'opération terminée",
+    "error": "Erreur",
+    "GroupInfo": "Informations sur le groupe",
+    "GroupDetails": "Détails du groupe",
+    "GroupDetailsDescription": "Informations détaillées sur le groupe",
+    "GroupName": "Nom de groupe",
+    "GroupSlug": "Limace de groupe ",
+    "GroupPermissions": "Autorisations de groupe",
+    "GroupPermissionsDescription": "Informations sur les autorisations de groupe",
+    "Inbox-": "Boîte de réception -fra -test1",
+    "Messages": "messages",
+    "Subscriptions": "Abonnements",
+    "User": "Utilisateur",
+    "AdvertChannels": "Canaux d'annonce",
+    "Incomes": "Revenus",
+    "Expenses": "Dépenses",
+    "Thema": "Le ma",
+    "Site": "Placer",
+    "Support": "Soutien",
+    "Help_documents": "Documents d'aide",
+    "Support_tickets": "Billets d'assistance"
+  },
+  "Permissions": {
+    "can_login": "peut se connecter",
+    "can_login_panel": "Peut se connecter au panneau",
+    "can_see_dashboard": "Peut voir le tableau de bord",
+    "can_see_inbox": "Peut voir la boîte de réception",
+    "can_see_content": "Peut voir le contenu",
+    "can_see_settings": "Peut voir les paramètres",
+    "can_see_users": "Peut voir les utilisateurs",
+    "can_see_user": "Peut voir l'utilisateur",
+    "can_see_help": "Peut voir l'aide",
+    "can_see_payments": "Peut voir les paiements",
+    "can_see_reports": "Peut voir les rapports",
+    "can_see_adverts": "Peut voir des publicités",
+    "can_see_social": "Peut voir social"
+  },
+  "Settings": {
+    "Settings": "Paramètres",
+    "Thema": "Théma",
+    "OtherSettings": "Autres réglages",
+    "SettingsList": "Liste des paramètres",
+    "BankAccountInfo": "Informations sur le compte bancaire",
+    "AccountName": "Nom du compte",
+    "accountIBAN": "IBAN",
+    "accountCurrency": "Devise",
+    "accountBank": "Banque",
+    "accountBranchCode": "Indicatif de succursale",
+    "accountSwiftCode": "Code rapide",
+    "saved": "Enregistré",
+    "saveOperationCompleted": "Enregistrer l'opération terminée",
+    "error": "Erreur",
+    "updateOperationCompleted": "Opération de mise à jour terminée",
+    "pickOne": "Choisissez-en un",
+    "label": "Sayfa başına kayıt",
+    "btnText": "Appliquer"
+  },
+  "Filter": {
+    "title": "Titre",
+    "call": {
+      "call": "Appel",
+      "applyBtnText": "Appliquer",
+      "resetBtnText": "Réinitialiser",
+      "placeHolder": "Vous pouvez rechercher par nom, prénom ou E.Mail."
+    },
+    "driver": {
+      "label": "Filtres enregistrés",
+      "list": {
+        "placeholder": "Titre",
+        "saveBtn": "Kaydet"
+      }
+    }
+  },
+  "EntryType": {
+    "id": "Id",
+    "label": "Étiquette",
+    "slug": "Limace",
+    "operation": "Opération",
+    "formLayout": "Informations sur le formulaire"
+  },
+  "Entry": {
+    "id": "Id",
+    "isDraft": "Est brouillon",
+    "isPublished": "Est publié",
+    "Name": "Nom",
+    "warningYouAreDeletingEntry": "Vous supprimez une entrée",
+    "warningAreYouSureDeletingEntry": "Êtes-vous sûr?"
+  },
+  "FormType": {
+    "id": "Id",
+    "title": "Titre",
+    "layout": "layout",
+    "operation": "opération",
+    "formLayout": "Informations sur le formulaire"
+  },
+  "TaxonomyItem": {
+    "id": "Id",
+    "label": "Étiquette",
+    "slug": "Limace",
+    "description": "La description",
+    "operation": "Opération"
+  },
+  "Action": {
+    "Publish": "Publier",
+    "UnPublish": "Annuler la publication",
+    "Move": "Bouge toi",
+    "Delete": "effacer",
+    "The_Selected": "choisie"
+  },
+  "EmailAccount": {
+    "id": "Id",
+    "from": "À partir de",
+    "name": "Nom",
+    "password": "Mot de passe",
+    "operation": "Opération",
+    "forward": "Vers l'avant",
+    "createdBy": "Créé par"
+  },
+  "SupportTickets": {
+    "id": "Id",
+    "userId": "Identifiant d'utilisateur",
+    "categoryId": "Identifiant de catégorie",
+    "responsibleGroupId": "Identifiant du groupe responsable",
+    "responsibleUserId": "ID utilisateur responsable",
+    "title": "Titre",
+    "url": "Url",
+    "content": "Contenu",
+    "urgency": "Urgence",
+    "status": "Statut",
+    "createdAt": "Créé à",
+    "updatedAt": "mis à jour à",
+    "operation": "Opération"
+  }
+}

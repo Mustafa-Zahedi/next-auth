@@ -1,4 +1,5 @@
 import styles from "./page.module.css";
+import "@/styles/table.css";
 
 export default function Home() {
   return (

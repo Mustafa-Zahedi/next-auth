@@ -1,0 +1,229 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  position: relative;
+  font-size: small;
+}
+
+table > thead > tr > th {
+  text-align: left;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  border-bottom: 1px solid #eaeaea;
+  background: white;
+  z-index: 10;
+}
+
+table > thead > tr > th:last-child {
+  border-right: none;
+}
+
+table .mantine-Checkbox-root {
+  height: 16px;
+}
+
+table > tbody > tr > td {
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+table > tbody > tr.selected td {
+  background: #dff2fd !important;
+}
+
+table > tbody > tr:not(.selected):hover td {
+  background: #edf8fe !important;
+}
+
+table > thead > tr > th:last-child,
+table > tbody > tr > td:last-child {
+  /* padding-right: 15px; */
+  /* width: auto !important; */
+}
+
+table > tbody > tr:nth-child(odd) > td {
+  background: #fbfbfb;
+}
+
+table > tbody > tr:nth-child(odd).selected > td {
+  background: #e9f5fe !important;
+}
+
+table > thead > tr > th {
+  border-right: 1px solid #eaeaea;
+}
+
+table > thead > tr > th.has-order:hover {
+  background: #f0f0f0;
+}
+
+table .checkColumn {
+  width: 10px;
+  padding: 10px 22px;
+  text-align: center;
+}
+
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px);
+}
+
+.table-wrapper-md {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 22rem);
+}
+
+.table-toolbar {
+  padding: 10px;
+  height: 50px;
+}
+
+.table-content {
+  flex: 1;
+  overflow: auto;
+  background: white;
+}
+
+.table-footer {
+  padding: 16px;
+  border-top: 1px solid #eaeaea;
+}
+
+.table-loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column-label-wrapper {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* border-right: 1px solid #EAEAEA; */
+}
+
+.column-label-wrapper:hover {
+  cursor: pointer;
+}
+
+.saved-filters-table thead tr th {
+  padding: 10px 5px !important;
+  font-weight: bold;
+}
+
+.saved-filters-table thead tr th[align="right"] {
+  text-align: right !important;
+}
+
+.saved-filters-table tbody tr td {
+  padding: 2px 5px !important;
+}
+
+.table-context-menu {
+  display: none;
+  position: absolute;
+  background: white;
+  transition: all 1s ease-in-out;
+  right: 0px;
+  padding: 3px 10px 3px 5px;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid #ddd;
+  border-right: none;
+}
+
+table > tbody > tr:hover td .table-context-menu {
+  display: block;
+}
+
+.td-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+/*
+table > tbody tr > td .row-context-menu-column {
+  display: none !important;
+  
+}
+
+table > tbody tr:hover > td .row-context-menu-column {
+  display: block !important;
+  
+}
+*/
+
+table td.last-column {
+  /* display: flex; */
+  flex-direction: row;
+}
+
+/*
+.row-context-menu-td {
+  padding: 0 !important;
+  display: flex;
+  align-items: top;
+  transition: all 1.0s ease-in;
+  background: green;
+}
+
+.row-context-menu {
+  display: none;
+  position: fixed;
+  padding: 8px;
+  min-width: 100px;
+  right: 0px;  
+  background: #DDD;
+  border-radius: 10px 0 0 10px;
+}
+
+table > tbody > tr:hover td .row-context-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  right: 20px;
+}*/
+
+.toolbar-bar-icon {
+}
+
+.toolbar-bar-icon:hover {
+  background-color: white !important;
+  color: red !important;
+}
+
+.toolbar-bar-icon:hover svg {
+  color: #333 !important;
+}
+
+.mantine-Tooltip-body {
+  font-size: 12px;
+}
+
+.table_action {
+  display: none;
+}
+
+table > tbody > tr:hover td .table_action {
+  display: block;
+}
+
+table > tbody > tr .name {
+  display: none;
+}
+
+table > tbody > tr:hover .name {
+  display: block;
+}
